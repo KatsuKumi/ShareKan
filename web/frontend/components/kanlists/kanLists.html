@@ -1,0 +1,6 @@
+<div class="container">
+  <div dir-paginate="kanList in $ctrl.kanLists | itemsPerPage:10" current-page="$ctrl.currentPage">
+    <a>{{kanList.title}}</a>
+  </div>
+  <dir-pagination-controls boundary-links="true" on-page-change="$ctrl.pageChangeHandler(newPageNumber)" template="node_modules/angular-utils-pagination/dirPagination.tpl.html"></dir-pagination-controls>
+</div>

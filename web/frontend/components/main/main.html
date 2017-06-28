@@ -1,29 +1,50 @@
-<!--Barre de Nav-->
-<header>
-    <div>
-        <nav>
-            <div class="navbar-fixed">
-                <nav class="#455a64 blue-grey darken-2">
-                    <!--<div class="nav-wrapper container" ng-controller="main as ctrl">-->
-                    <ul class="right hide-on-small-only" data-activates="mobile-demo">
-                        <li>
-                            <form ng-submit="$ctrl.getSearchMusic()" id="search">
-                                <input name="q" type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
-                            </form>
-                        </li>
-                        <li>
-                            <a ui-sref="Playlists" ui-sref-active="select" tooltips tooltip-template="Questions" tooltip-side="bottom"><i class="material-icons">reorder</i></a>
-                        </li>
-                    </ul>
+<!--Barres de Nav-->
+    <div class="navbar-fixed">
+        <nav class="#e0e0e0 grey lighten-2">
+            <div class="nav-wrapper container">
+                <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+                    <input type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
+                    <a ui-sref='kanList'> ACCUEIL </a>
+                </form>
             </div>
-            </nav>
+        </nav>
     </div>
-</header>
 
-<footer class="page-footer">
-    <div class="container">
-        <a class="grey-text text-lighten-4 right">© 2016 Copyright Text</a>
-        <a class="grey-text text-lighten-4 right" href="https://wildcodeschool.fr" target="_blank">La Wild Code School</a>
-    </div>
-</footer>
+<div>
+    <ul id="slide-out" class="side-nav fixed #e0e0e0 grey lighten-2">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/office.jpg">
+                </div>
+                <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+                <a href="#!name"><span class="white-text name">John Doe</span></a>
+                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a ui-sref="kanProfile"><i class="material-icons">face</i>My KanProfile</a></li>
+        <li><a class="waves-effect">My KanLists</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" ui-sref="kanLists">KanList of the Day</a></li>
+    </ul>
+    <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+
+    <script>
+        // Initialize collapse button
+        $(".button-collapse").sideNav();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        $('.collapsible').collapsible();
+    </script>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true, // Choose whether you can drag to open on touch screens,
+        });
+    </script>
 </div>
+
+    <ui-view></ui-view>
+
