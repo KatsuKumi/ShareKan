@@ -1,6 +1,6 @@
 'use strict';
 
-share.config(function ($stateProvider, $urlRouterProvider) {
+SHARE.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
 
 
