@@ -2,10 +2,25 @@
 # https://symfony.com/doc/current/security.html
 security:
 
+    encoders:
+        WCS\ShareKanBundle\Entity\User:
+            algorithm: sha512
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: ROLE_ADMIN
+
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
         in_memory:
-            memory: ~
+            memory:
+                users:
+                    user:  { password: userpass, roles: [ 'ROLE_USER' ] }
+                    admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
+        our_db_provider:
+           entity:
+                class: WCSShareKanBundle:User
+                property: username
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -13,8 +28,37 @@ security:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
 
+        login:
+            pattern:  ^/api/login
+            stateless: true
+            anonymous: true
+            form_login:
+                username_parameter: username
+                password_parameter: password
+                check_path:               /api/login_check
+                provider: our_db_provider
+                success_handler:          lexik_jwt_authentication.handler.authentication_success
+                failure_handler:          lexik_jwt_authentication.handler.authentication_failure
+                require_previous_session: false
+
+        api:
+            pattern:   ^/api
+            stateless: true
+            guard:
+                authenticators:
+                    - lexik_jwt_authentication.jwt_token_authenticator
         main:
+            pattern: ^/
             anonymous: ~
+            form_login:
+                username_parameter: username
+                password_parameter: password
+                provider: our_db_provider
+                login_path: login
+                check_path: login_check
+            logout:
+                path:   /logout
+                invalidate_session: false
             # activate different ways to authenticate
 
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate

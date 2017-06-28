@@ -1,0 +1,24 @@
+
+login:
+    path:  /login
+    defaults: { _controller: WCSShareKanBundle:Default:index }
+
+api_playlist_add:
+    path: /playlist/add
+    defaults: { _controller: WCSShareKanBundle:Playlist:add }
+
+api_playlist_delete:
+    path: /playlist/delete
+    defaults: { _controller: WCSShareKanBundle:Playlist:delete }
+
+api_playlist_update:
+    path: /playlist/update
+    defaults: { _controller: WCSShareKanBundle:Playlist:update }
+
+api_playlist_get:
+    path: /playlist/get
+    defaults: { _controller: WCSShareKanBundle:Playlist:get }
+
+api_playlist_all:
+    path: /playlist/all
+    defaults: { _controller: WCSShareKanBundle:Playlist:getall }
