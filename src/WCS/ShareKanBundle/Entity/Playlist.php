@@ -43,7 +43,7 @@ class Playlist
     private $vote;
 
     /**
-     * @ORM\OneToMany(targetEntity="Share", mappedBy="Playlist")
+     * @ORM\OneToMany(targetEntity="Share", mappedBy="Playlist", cascade={"remove"})
      */
     private $shares;
 
@@ -51,6 +51,11 @@ class Playlist
      * @ORM\ManyToMany(targetEntity="Tag", mappedBy="Playlist")
      */
     private $tags;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="Playlists")
+     */
+    private $creator;
 
 
     /**
@@ -209,5 +214,29 @@ class Playlist
     public function getTags()
     {
         return $this->tags;
+    }
+
+    /**
+     * Set creator
+     *
+     * @param \WCS\ShareKanBundle\Entity\User $creator
+     *
+     * @return Playlist
+     */
+    public function setCreator(\WCS\ShareKanBundle\Entity\User $creator = null)
+    {
+        $this->creator = $creator;
+
+        return $this;
+    }
+
+    /**
+     * Get creator
+     *
+     * @return \WCS\ShareKanBundle\Entity\User
+     */
+    public function getCreator()
+    {
+        return $this->creator;
     }
 }
