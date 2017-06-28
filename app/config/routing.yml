@@ -5,3 +5,7 @@ app:
 
 api_login_check:
   path: /api/login_check
+
+wcs_share_kan_homepage:
+    path:     /
+    defaults: { _controller: WCSShareKanBundle:Default:index }
