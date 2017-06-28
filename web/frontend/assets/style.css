@@ -1,0 +1,49 @@
+/*NavBar verticale*/
+#slide-out {
+    box-shadow: none;
+}
+
+/*NavBar horizontale*/
+#search input[type="text"] {
+    background: url(/frontend/assets/img/search-white.png) no-repeat 10px 6px #fcfcfc;
+    margin: 0px 0px 0px 30%;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #048B9A;
+    width: 200px;
+    padding: 6px 15px 6px 35px;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
+
+#search input[type="text"]:focus {
+    width: 250px;
+    border-bottom: none;
+}
+
+/*Body Accueil*/
+.container {
+    margin: 0px 0px 0px 30%;
+}
+
+/*Footer*/
+footer a {
+    color: black;
+    margin: 0px 0px 0px 30%;
+}
+
+.collection {
+    margin: 0px 0px 0px 30%;
+}

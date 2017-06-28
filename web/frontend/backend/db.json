@@ -1,0 +1,1686 @@
+{
+  "questions": [
+    {
+      "title": "How do JavaScript closures work?",
+      "content": "How would you explain JavaScript closures to someone with a knowledge of the concepts they consist of (for example functions, variables and the like), but does not understand closures themselves?",
+      "nb_views": 155,
+      "votes": 101,
+      "date": "1998-04-08T01:47:18.815Z",
+      "answersCount": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "title": "AngularJS: Service vs provider vs factory",
+      "content": "What are the differences between a Service, Provider and Factory in AngularJS?",
+      "nb_views": 345,
+      "votes": 17,
+      "date": "2015-03-01T01:49:44.615Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "title": "How can I prevent SQL injection in PHP?",
+      "content": "If user input is inserted without modification into an SQL query, then the application becomes vulnerable to SQL injection, like in the following example:",
+      "nb_views": 423,
+      "votes": 2,
+      "date": "2015-04-08T01:51:51.436Z",
+      "answersCount": 4,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "title": "Is Java 'pass-by-reference' or 'ass-by-value'?",
+      "content": "I always thought Java was pass-by-reference; however I've seen a couple of blog posts (for example, this blog) that claim it's not. I don't think I understand the distinction they're making. What is the explanation?",
+      "nb_views": 186,
+      "votes": 98,
+      "date": "2015-12-08T01:53:23.566Z",
+      "answersCount": 0,
+      "userId": 4,
+      "id": 4
+    },
+    {
+      "title": "What does 'use strict' do in JavaScript, and what is the reasoning behind it?",
+      "content": "Recently, I ran some of my JavaScript code through Crockford's JSLint, and it gave the following error:",
+      "nb_views": 120,
+      "votes": 27,
+      "date": "2016-02-08T09:25:09.366Z",
+      "answersCount": 0,
+      "userId": 5,
+      "id": 5
+    },
+    {
+      "title": "How do I access the $scope variable in browser's console using AngularJS?",
+      "content": "I would like to access my $scope variable in Chrome's JavaScript console. How do I do that? I can neither see $scope nor the name of my module myapp in the console as variables.",
+      "nb_views": 15,
+      "votes": 0,
+      "date": "2016-03-14T11:12:55.705Z",
+      "answersCount": 0,
+      "userId": 6,
+      "id": 6
+    },
+    {
+      "title": "How does PHP 'foreach' actually work?",
+      "content": "Let me prefix this by saying that I know what foreach is, does and how to use it.",
+      "nb_views": 140,
+      "votes": 0,
+      "date": "2016-04-03T11:55:23.473Z",
+      "answersCount": 0,
+      "userId": 7,
+      "id": 7
+    },
+    {
+      "title": "Java's +=, -=, *=, /= compound assignment operators",
+      "content": "I'm surprised Java allows this, being a stricter language than its predecessors. Errors in casting can lead to critical failure, as was the case with Ariane5 Flight 501 where a 64-bit float cast to a 16-bit integer resulted in the crash",
+      "nb_views": 32,
+      "votes": 0,
+      "date": "2016-04-22T11:56:17.597Z",
+      "answersCount": 0,
+      "userId": 8,
+      "id": 8
+    },
+    {
+      "title": "Why are C# 4 optional parameters defined on interface not enforced on implementing class?",
+      "content": "I noticed that with the optional parameters in C# 4 if you specify a parameter as optional on an interface you DON'T have to make that parameter optional on any implementing class: public interface",
+      "nb_views": 409,
+      "votes": 378,
+      "date": "2016-04-23T15:28:44.873Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 9
+    },
+    {
+      "title": "Setting 'checked' for a checkbox with jQuery?",
+      "content": "I'd like to do something like this to tick a checkbox using jQuery:",
+      "nb_views": 3,
+      "votes": 0,
+      "date": "2016-05-17T17:51:13.675Z",
+      "answersCount": 0,
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "title": "What does the “yield” keyword do in Python?",
+      "content": "What is the use of the yield keyword in Python? What does it do?",
+      "nb_views": 189,
+      "votes": 0,
+      "date": "2016-06-25T12:12:40.826Z",
+      "answersCount": 2,
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "title": "How do I get the current absolute URL in Ruby on Rails?",
+      "content": "How can I get the current absolute URL in my Ruby on Rails view? The request.request_uri only returns the relative URL.",
+      "nb_views": 5,
+      "votes": 0,
+      "date": "2016-07-23T14:32:05.211Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "title": "How do I get a consistent byte representation of strings in C# without manually specifying an encoding?",
+      "content": "How do I convert a string to a byte[] in .NET (C#) without manually specifying a specific encoding?",
+      "nb_views": 34,
+      "votes": 0,
+      "date": "2016-07-25T14:59:11.581Z",
+      "answersCount": 2,
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "title": "event.preventDefault() vs. return false",
+      "content": "When I want to prevent other event handlers from executing after a certain event is fired, I can use one of two techniques",
+      "nb_views": 9,
+      "votes": 1,
+      "date": "2016-08-24T17:22:52.010Z",
+      "answersCount": 0,
+      "userId": 5,
+      "id": 14
+    },
+    {
+      "title": "What does the “yield” keyword do in Python?",
+      "content": "What is the use of the yield keyword in Python? What does it do?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-09-26T09:35:19.490Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 15
+    },
+    {
+      "title": "A concise explanation of nil v. empty v. blank in Ruby on Rails",
+      "content": "I find myself repeatedly looking for a clear definition of the differences of nil?, blank?, and empty? in Ruby on Rails. ",
+      "nb_views": 1,
+      "votes": 0,
+      "date": "2016-10-26T15:23:11.146Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 16
+    },
+    {
+      "title": "Abort Ajax requests using jQuery",
+      "content": "Using jQuery, how can I cancel/abort an Ajax request that I have not yet received the response from?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-10-27T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 5,
+      "id": 17
+    },
+    {
+      "title": "What characters do I need to escape in XML documents?",
+      "content": "What characters must be escaped in XML documents, or where could I find such a list?",
+      "nb_views": 353,
+      "votes": 125,
+      "date": "2016-10-27T07:01:30.818Z",
+      "answersCount": 1,
+      "userId": 2,
+      "id": 18
+    },
+    {
+      "title": "Swift performance: sorting arrays",
+      "content": "I was implementing an algorithm in Swift and noticed that the performance was very poor. After digging deeper I realised that one of the bottlenecks was something as simple as sorting arrays.",
+      "nb_views": 294,
+      "votes": 120,
+      "date": "2016-10-27T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 19
+    },
+    {
+      "title": "How to find all files containing specific text on Linux?",
+      "content": "I'm trying to find a way to scan my entire Linux system for all files containing a specific string of text. Just to clarify, I'm looking for text within the file, not in the file name.",
+      "nb_views": 134,
+      "votes": 65,
+      "date": "2016-10-27T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 20
+    },
+    {
+      "title": "Wait until all jQuery Ajax requests are done?",
+      "content": "How do I make a function wait until all jQuery Ajax requests are done inside another function? In short, I need to wait for all Ajax requests to be done before I execute the next.",
+      "nb_views": 43,
+      "votes": 12,
+      "date": "2016-10-27T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 21
+    },
+    {
+      "title": "How do I parse XML in Python?",
+      "content": "I have many rows in a database that contains xml and I'm trying to write a Python script that will go through those rows and count how many instances of a particular node attribute show up.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-11-16T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 5,
+      "id": 22
+    },
+    {
+      "title": "How do I create a basic UIButton programmatically?",
+      "content": "How can I create a basic UIButton programmatically? For example in my view controller, when executing the viewDidLoad method, three UIButtons will be created dynamically and its layout or properties ...",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-11-15T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 23
+    },
+    {
+      "title": "How can I redirect and append both stdout and stderr to a file with Bash?",
+      "content": "How do I redirect both stdout and stderr appending to a file? cmd &>> file.txt did not work for me.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-11-22T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 24
+    },
+    {
+      "title": "Nodejs Event Loop",
+      "content": "On an I/O request does node queue the request to libeio which in turn notifies the availability of data via events using libev and finally those events are handled by v8 event loop using callbacks? Basically, How are libev and libeio integrated in nodejs architecture?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-11-27T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 25
+    },
+    {
+      "title": "What's the difference between the atomic and nonatomic attributes?",
+      "content": "What is the operational difference between these three?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-12T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 26
+    },
+    {
+      "title": "Change an HTML5 input's placeholder color with CSS",
+      "content": "Chrome supports the placeholder attribute on input[type=text] elements (others probably do too).",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-29T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 27
+    },
+    {
+      "title": "How to horizontally center a <div> in another <div>?",
+      "content": "How can I horizontally center a <div> within another <div> using CSS (if it's even possible)?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-19T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 8,
+      "id": 28
+    },
+    {
+      "title": "nodejs vs node on ubuntu 12.04",
+      "content": "So, how do I get node working?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-16T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 29
+    },
+    {
+      "title": "In Objective-C, how do I test the object type?",
+      "content": "I need to test whether the object is of type NSString or UIImageView. How can I accomplish this? Is there some type of 'isoftype' method?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-07T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 30
+    },
+    {
+      "title": "Why does HTML think “chucknorris” is a color?",
+      "content": "How come certain random strings produce colors when entered as background colors in HTML? For example:",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2016-12-30T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 1,
+      "id": 31
+    },
+    {
+      "title": "Passing Data between View Controllers",
+      "content": "I'm new to iOS and, Objective-C and the whole MVC paradigm and I'm stuck with the following: I have a view that acts as a data entry form and I want to give the user the option to select multiple products. The products are listed on another view with a UITableView controller and I have enabled multiple selections.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-01-04T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 32
+    },
+    {
+      "title": "Need a minimal Django file upload example",
+      "content": "As a newbie to Django, I am having difficulty making an upload app in Django 1.3. I could not find any up-to-date example/snippets. May someone post a minimal but complete (Model, View, Template) example code to do so?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-01-17T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 33
+    },
+    {
+      "title": "What are the Wordpress alternatives for Ruby on Rails?",
+      "content": "What are the Wordpress alternatives for Ruby on Rails? How do they compare to Wordpress?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-01-21T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 6,
+      "id": 34
+    },
+    {
+      "title": "vertical-align with Bootstrap",
+      "content": "I'm using Twitter Bootstrap 3, and I have problems when I want to align vertically two div, for example",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-02-20T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 35
+    },
+    {
+      "title": "Material effect on button with background color",
+      "content": "I am using Android v21 support library. I have created a button with custom background color.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-03-19T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 36
+    },
+    {
+      "title": "Need a minimal Django file upload example",
+      "content": "As a newbie to Django, I am having difficulty making an upload app in Django 1.3. I could not find any up-to-date example/snippets.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-03-30T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 37
+    },
+    {
+      "title": "Correct file permissions for WordPress",
+      "content": "I've had a look over here but didn't find any details on the best file permissions. I also took a look at some of WordPress's form's questions over here too but anybody that suggests 777 obviously needs a little lesson in security.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-01T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 3,
+      "id": 38
+    },
+    {
+      "title": "How can I make Bootstrap columns all the same height?",
+      "content": "I'm using Bootstrap. How can I make three columns all the same height? Here is a screenshot of the problem - I would like the blue and red columns to be the same height as the yellow column.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-14T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 7,
+      "id": 39
+    },
+    {
+      "title": "Angular Material",
+      "content": "So i have installed angular, angular-material, angular-aria, angular-animate dependencies to my system. I just want to test out this up and coming styling method. It seems I'm stuck at the beginning. Can you tell me whats wrong with the code?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-15T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 40
+    },
+    {
+      "title": "Visual Studio - Command to collapse all sections of code?",
+      "content": "In Visual Studio (2008) is there a command to collapse/expand all the sections of code in a file?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-17T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 41
+    },
+    {
+      "title": "Does VBA have Dictionary Structure?",
+      "content": "Does VBA have dictionary structure? Like key<>value array?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-22T10:59:18.163Z",
+      "answersCount": 0,
+      "userId": 1,
+      "id": 42
+    },
+    {
+      "title": "Responsive Google Map?",
+      "content": "How to make a responsive google map from the code",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-24T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 5,
+      "id": 43
+    },
+    {
+      "title": "How to avoid Java code in JSP files?",
+      "content": "is an old school way of coding and in JSP version 2 there exists a method to avoid Java code in JSP files. Can someone please tell me the alternative JSP 2 lines, and what this technique is called?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-25T03:59:18.163Z",
+      "answersCount": 0,
+      "userId": 4,
+      "id": 44
+    },
+    {
+      "title": "How to enable mod_rewrite for Apache 2.2",
+      "content": "I've got fresh install of Apache 2.2 on my Vista machine, everything works fine, except mod rewrite.",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-25T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 8,
+      "id": 45
+    },
+    {
+      "title": "Calling an external command in Python",
+      "content": "How can I call an external command (as if I'd typed it at the Unix shell or Windows command prompt) from within a Python script?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-25T13:59:18.163Z",
+      "answersCount": 0,
+      "userId": 2,
+      "id": 46
+    },
+    {
+      "title": "How to pass command line arguments to a rake task",
+      "content": "I have a rake task that needs to insert a value into multiple databases. I'd like to pass this value into the rake task from the command line, or from another rake task. How can I do this?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-26T06:59:18.163Z",
+      "answersCount": 0,
+      "userId": 1,
+      "id": 47
+    },
+    {
+      "title": "What are the correct version numbers for C#?",
+      "content": "What are the correct version numbers for C#? What came out when? Why can't I find any answers about C# 3.5?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-26T14:59:18.163Z",
+      "answersCount": 0,
+      "userId": 7,
+      "id": 48
+    },
+    {
+      "title": "Add table row in jQuery",
+      "content": "What is the best method in jQuery to add an additional row to a table as the last row? Is this acceptable?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-26T20:59:18.163Z",
+      "answersCount": 0,
+      "userId": 8,
+      "id": 49
+    },
+    {
+      "title": "Sort a Python dictionary by value",
+      "content": "I have a dictionary of values read from two fields in a database: a string field and a numeric field. The string field is unique, so that is the key of the dictionary. I can sort on the keys, but how can I sort based on the values?",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-27T10:59:18.163Z",
+      "answersCount": 0,
+      "userId": 9,
+      "id": 50
+    },
+    {
+      "title": "COucou Maman",
+      "content": "<div><!--block--><strong>kdjahdajh</strong></div>",
+      "nb_views": 1,
+      "votes": 1,
+      "date": "2017-05-02T06:38:58.532Z",
+      "answersCount": 0,
+      "userId": 8,
+      "id": 51
+    }
+  ],
+  "users": [
+    {
+      "email": "laetitiadervaux33@gmail.com",
+      "pass": "laetPSW",
+      "id": 1,
+      "last_name": "Dervaux",
+      "first_name": "Laetitia",
+      "pseudo": "Letitbe",
+      "school": "La Loupe",
+      "promotion": "février 2017",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909591022655014990501.jpg",
+      "profile": "je suis passionnée d'informatique, de graphisme. Je suis également fan des Beattles, d'où mon pseudo Hihihi",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "La Loupe",
+      "graduation": "Mars 2017",
+      "tokenSecure": 648.8477424046741
+    },
+    {
+      "email": "pierrevicq@hotmail.fr",
+      "pass": "pierPSW",
+      "id": 2,
+      "last_name": "Vicq",
+      "first_name": "Pierre",
+      "pseudo": "Piotr",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909591022655014990500.jpg",
+      "profile": "Je suis passionné d'angular, mais vraiment vraiment trop...et ça se voit quand je code: mes 'Get' sont resplendissants, même si mes 'Post', un peu moins...",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Lyon",
+      "graduation": "Septembre 2016",
+      "tokenSecure": 4578.866380591274
+    },
+    {
+      "email": "lderv68@gmail.com",
+      "pass": "lderPSW",
+      "id": 3,
+      "last_name": "Vauder",
+      "first_name": "Letty",
+      "pseudo": "Lettyyyyy",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909591022655014990499.jpg",
+      "profile": "je suis passionnée d'informatique et de graphisme, tout comme Laetitia. C'est drôle parce qu'on a presque le même prénom en plus. Par contre, moi, les Beattles, j'peux pas les encadrer... j'suis bien contente qu'ils soient morts !",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Bordeaux",
+      "graduation": "Janvier 2017",
+      "tokenSecure": 3591.175768813098
+    },
+    {
+      "email": "sacha@gmail.com",
+      "pass": "sachaPSW",
+      "id": 4,
+      "last_name": "Grasso",
+      "first_name": "Sacha",
+      "pseudo": "Sach",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909590922655014990497.jpg",
+      "profile": "je suis passionné d'angular, je surkiffe... j'adore ma barbe aussi, elle fait tomber toutes les minettes... et la soupe aussi, avec un peu de lait dedans hahahaha",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Toulouse",
+      "graduation": "Mars 2017"
+    },
+    {
+      "email": "aurore@gmail.com",
+      "pass": "aurorePSW",
+      "id": 5,
+      "last_name": "Chataigner",
+      "first_name": "Aurore",
+      "pseudo": "Aur",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909590922655014990496.jpg",
+      "profile": "je suis passionnée d'angular, je surkiffe aussi, tout comme Sach (dont j'adore la barbe moelleuse)... Sinon, me fais pas trop iech ou j'te fais un fatal Ushiro-Geri! Hiiiiiaaaaouuuu",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Fontainebleau",
+      "graduation": "Mars 2017"
+    },
+    {
+      "email": "julien@gmail.com",
+      "pass": "juPSW",
+      "id": 6,
+      "last_name": "Rousset",
+      "first_name": "Julien",
+      "pseudo": "Ju",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909590922655014990495.jpg",
+      "profile": "Salut, moi ca va... hier, le dojo c'était sympathique. Voilà quoi hahah",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "tokenSecure": 59.72705961697855,
+      "ville": "La Loupe",
+      "graduation": "Mars 2017"
+    },
+    {
+      "email": "julienRousset@hotmail.com",
+      "pass": "juPSW",
+      "id": 7,
+      "last_name": "Roussetto",
+      "first_name": "Juliano",
+      "pseudo": "Julian",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909591022655014990498.jpg",
+      "profile": "Salut, moi ca va aussi... hier, Prison Break, c'était pas mal. Si t'as un problème avec angular, j'peux t'aider: tu prends cette variable, tu la mets dans le truc là, et bâaaam ! Voilà ! hahah",
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Bordeaux",
+      "graduation": "Février 2017"
+    },
+    {
+      "email": "pierre@gmail.com",
+      "pass": "toto",
+      "last_name": "Vico",
+      "first_name": "Pedro",
+      "pseudo": "Toto",
+      "date": "2017-04-24T14:13:42.504Z",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/19//17041909590922655014990497.jpg",
+      "profile": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 8,
+      "facebook": "https://www.facebook.com/upper.burger.3?fref=ts",
+      "instagram": "https://www.instagram.com/piotr____/",
+      "twitter": "https://twitter.com/hashtag/RadioLondres2017?src=hash",
+      "github": "https://github.com/Piotr-V?tab=repositories",
+      "linkedin": "https://www.linkedin.com/in/pierre-vicq-4a246b120",
+      "stack": "http://stackexchange.com/users/10499231/piotr",
+      "ville": "Toulouse",
+      "graduation": "Septembre 2015",
+      "tokenSecure": 3276.884224412309
+    },
+    {
+      "email": "elisa@gmail.com",
+      "pass": "zaza",
+      "last_name": "Etcheverry",
+      "first_name": "Elisa",
+      "pseudo": "Tatichou",
+      "date": "2017-04-26T14:13:42.504Z",
+      "avatar": "http://nsm07.casimages.com/img/2017/04/26//17042611421922655015002755.jpg",
+      "profile": "Campus Manager à la Wild Code School de Bordeaux, une école numérique dont l’objectif est de combler le défaut de compétences numériques en formant des développeurs à portée des entreprises en quête de talents. Nous délivrons le titre d’État de développeur logiciel (équivalent Bac+2). Les élèves de la Wild Code School forment une communauté soudée qui s’appuie sur l’entraide et le soutien mutuel. La joie de vivre et la passion font partie de notre quotidien. La barbe de Sacha est très douce.",
+      "id": 9,
+      "facebook": "https://www.facebook.com/elisaetcheverry18/about?lst=697321231%3A100012733296453%3A1493241830",
+      "instagram": "https://www.instagram.com/mariaelisaetcheverry/",
+      "twitter": "https://twitter.com/ElisaEtche",
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/elisa-etcheverry-2a27515b/",
+      "stack": "",
+      "tokenSecure": 55.563492970315934,
+      "ville": "Bordeaux",
+      "graduation": "Septembre 2016"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "Javascript"
+    },
+    {
+      "id": 2,
+      "name": "AngularJS"
+    },
+    {
+      "id": 3,
+      "name": "PHP"
+    },
+    {
+      "id": 4,
+      "name": "Java"
+    },
+    {
+      "id": 5,
+      "name": "C#"
+    },
+    {
+      "id": 6,
+      "name": "Jquery"
+    },
+    {
+      "id": 7,
+      "name": "Python"
+    },
+    {
+      "id": 8,
+      "name": "Ruby"
+    },
+    {
+      "id": 9,
+      "name": "Ajax"
+    },
+    {
+      "id": 10,
+      "name": "XML"
+    },
+    {
+      "id": 11,
+      "name": "Swift"
+    },
+    {
+      "id": 12,
+      "name": "Linux"
+    },
+    {
+      "id": 13,
+      "name": "Nodejs"
+    },
+    {
+      "id": 14,
+      "name": "Objective-C"
+    },
+    {
+      "id": 15,
+      "name": "HTML"
+    },
+    {
+      "id": 16,
+      "name": "CSS"
+    },
+    {
+      "id": 17,
+      "name": "Django"
+    },
+    {
+      "id": 18,
+      "name": "WordPress"
+    },
+    {
+      "id": 19,
+      "name": "Bootstrap"
+    },
+    {
+      "id": 20,
+      "name": "Material"
+    },
+    {
+      "id": 21,
+      "name": "Visual Studio"
+    },
+    {
+      "id": 22,
+      "name": "VBA"
+    },
+    {
+      "id": 23,
+      "name": "Google Map"
+    },
+    {
+      "id": 24,
+      "name": "JSP"
+    },
+    {
+      "id": 25,
+      "name": "Apache"
+    }
+  ],
+  "taglinks": [
+    {
+      "questionId": 1,
+      "tagId": 1,
+      "id": 1
+    },
+    {
+      "questionId": 2,
+      "tagId": 2,
+      "id": 2
+    },
+    {
+      "questionId": 3,
+      "tagId": 3,
+      "id": 3
+    },
+    {
+      "questionId": 4,
+      "tagId": 4,
+      "id": 4
+    },
+    {
+      "questionId": 5,
+      "tagId": 1,
+      "id": 5
+    },
+    {
+      "questionId": 6,
+      "tagId": 2,
+      "id": 6
+    },
+    {
+      "questionId": 7,
+      "tagId": 3,
+      "id": 7
+    },
+    {
+      "questionId": 8,
+      "tagId": 4,
+      "id": 8
+    },
+    {
+      "questionId": 9,
+      "tagId": 5,
+      "id": 9
+    },
+    {
+      "questionId": 10,
+      "tagId": 6,
+      "id": 10
+    },
+    {
+      "questionId": 11,
+      "tagId": 7,
+      "id": 11
+    },
+    {
+      "questionId": 12,
+      "tagId": 8,
+      "id": 12
+    },
+    {
+      "questionId": 13,
+      "tagId": 5,
+      "id": 13
+    },
+    {
+      "questionId": 14,
+      "tagId": 6,
+      "id": 14
+    },
+    {
+      "questionId": 15,
+      "tagId": 7,
+      "id": 15
+    },
+    {
+      "questionId": 16,
+      "tagId": 8,
+      "id": 16
+    },
+    {
+      "questionId": 17,
+      "tagId": 9,
+      "id": 17
+    },
+    {
+      "questionId": 18,
+      "tagId": 10,
+      "id": 18
+    },
+    {
+      "questionId": 19,
+      "tagId": 11,
+      "id": 19
+    },
+    {
+      "questionId": 20,
+      "tagId": 12,
+      "id": 20
+    },
+    {
+      "questionId": 21,
+      "tagId": 9,
+      "id": 21
+    },
+    {
+      "questionId": 22,
+      "tagId": 10,
+      "id": 22
+    },
+    {
+      "questionId": 23,
+      "tagId": 11,
+      "id": 23
+    },
+    {
+      "questionId": 24,
+      "tagId": 12,
+      "id": 24
+    },
+    {
+      "questionId": 25,
+      "tagId": 13,
+      "id": 25
+    },
+    {
+      "questionId": 26,
+      "tagId": 14,
+      "id": 26
+    },
+    {
+      "questionId": 27,
+      "tagId": 15,
+      "id": 27
+    },
+    {
+      "questionId": 28,
+      "tagId": 16,
+      "id": 28
+    },
+    {
+      "questionId": 29,
+      "tagId": 13,
+      "id": 29
+    },
+    {
+      "questionId": 30,
+      "tagId": 14,
+      "id": 30
+    },
+    {
+      "questionId": 31,
+      "tagId": 15,
+      "id": 31
+    },
+    {
+      "questionId": 32,
+      "tagId": 16,
+      "id": 32
+    },
+    {
+      "questionId": 33,
+      "tagId": 17,
+      "id": 33
+    },
+    {
+      "questionId": 34,
+      "tagId": 18,
+      "id": 34
+    },
+    {
+      "questionId": 35,
+      "tagId": 19,
+      "id": 35
+    },
+    {
+      "questionId": 36,
+      "tagId": 20,
+      "id": 36
+    },
+    {
+      "questionId": 37,
+      "tagId": 17,
+      "id": 37
+    },
+    {
+      "questionId": 38,
+      "tagId": 18,
+      "id": 38
+    },
+    {
+      "questionId": 39,
+      "tagId": 19,
+      "id": 39
+    },
+    {
+      "questionId": 40,
+      "tagId": 20,
+      "id": 40
+    },
+    {
+      "questionId": 41,
+      "tagId": 21,
+      "id": 41
+    },
+    {
+      "questionId": 42,
+      "tagId": 22,
+      "id": 42
+    },
+    {
+      "questionId": 43,
+      "tagId": 23,
+      "id": 43
+    },
+    {
+      "questionId": 44,
+      "tagId": 24,
+      "id": 44
+    },
+    {
+      "questionId": 45,
+      "tagId": 25,
+      "id": 45
+    },
+    {
+      "questionId": 46,
+      "tagId": 7,
+      "id": 46
+    },
+    {
+      "questionId": 47,
+      "tagId": 8,
+      "id": 47
+    },
+    {
+      "questionId": 48,
+      "tagId": 5,
+      "id": 48
+    },
+    {
+      "questionId": 49,
+      "tagId": 6,
+      "id": 49
+    },
+    {
+      "questionId": 50,
+      "tagId": 7,
+      "id": 50
+    },
+    {
+      "questionId": 17,
+      "tagId": 6,
+      "id": 51
+    },
+    {
+      "questionId": 21,
+      "tagId": 6,
+      "id": 52
+    },
+    {
+      "questionId": 22,
+      "tagId": 7,
+      "id": 53
+    },
+    {
+      "questionId": 34,
+      "tagId": 8,
+      "id": 54
+    },
+    {
+      "questionId": 27,
+      "tagId": 16,
+      "id": 55
+    },
+    {
+      "questionId": 40,
+      "tagId": 2,
+      "id": 56
+    },
+    {
+      "questionId": 9,
+      "tagId": 2,
+      "id": 57
+    }
+  ],
+  "answers": [
+    {
+      "title": "XML escape characters",
+      "content": "<div><!--block-->If you use an appropriate class or library, they will do the escaping for you. Many XML issues are caused by string concatenation.</div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-27T20:21:58.498Z",
+      "userId": 8,
+      "questionId": 18,
+      "bestAnswer": false,
+      "id": 1
+    },
+    {
+      "title": "Closures Are Not Magic",
+      "content": "<div><!--block-->This page explains closures so that a programmer can understand them — using working JavaScript code. It is not for gurus or functional programmers.<br><br></div><div><!--block-->Closures are&nbsp;<em>not hard</em>&nbsp;to understand once the core concept is grokked. However, they are impossible to understand by reading any academic papers or academically oriented information about them!</div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-27T20:23:02.018Z",
+      "userId": 8,
+      "questionId": 1,
+      "bestAnswer": false,
+      "id": 2
+    },
+    {
+      "title": "UPDATE: This question was the subject of my blog on May 12th 2011. Thanks for the great question!",
+      "content": "<div><!--block-->Suppose you have an interface as you describe, and a hundred classes that implement it. Then you decide to make one of the parameters of one of the interface's methods optional. Are you suggesting that the right thing to do is for the compiler to force the developer to find every implementation of that interface method, and make the parameter optional as well?</div>",
+      "nb_views": 0,
+      "votes": 1,
+      "date": "2017-04-28T10:11:01.603Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": false,
+      "id": 3
+    },
+    {
+      "title": "The call obj2.TestMethod();",
+      "content": "<div><!--block-->An optional parameter is just tagged with an attribute. This attribute tells the compiler to insert the default value for that parameter at the call-site.</div><div><!--block-->The call obj2.TestMethod(); is replaced by obj2.TestMethod(false); when the C# code gets compiled to IL, and not at JIT-time.<br><br></div>",
+      "nb_views": 0,
+      "votes": 1,
+      "date": "2017-04-28T10:11:43.171Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": false,
+      "id": 4
+    },
+    {
+      "title": "called through",
+      "content": "<div><!--block-->Because default parameters are resolved at compile time, not runtime. So the default values does not belong to the object being called, but to the reference type that it is being called through.</div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-28T10:12:03.412Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": false,
+      "id": 5
+    },
+    {
+      "title": "Optional parameters",
+      "content": "<div><!--block-->Optional parameters are kind of like a macro substitution from what I understand. They are not really optional from the method's point of view. An artifact of that is the behavior you see where you get different results if you cast to an interface.</div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-28T10:12:34.426Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": false,
+      "id": 6
+    },
+    {
+      "title": "providing the default value",
+      "content": "<div><!--block-->So in a way it's always the caller providing the default value with optional parameters. This also has consequences on binary versioning: If you change the default value but don't recompile the calling code it will continue to use the old default value.</div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-28T10:15:04.398Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": false,
+      "id": 7
+    },
+    {
+      "title": "Hello",
+      "content": "<div><!--block--><strong>Hello Word</strong></div>",
+      "nb_views": 0,
+      "votes": 0,
+      "date": "2017-04-28T14:34:37.459Z",
+      "userId": 8,
+      "questionId": 9,
+      "bestAnswer": true,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "content": "to clarify my reasoning for why I think it is non-intuitive: to me an optional parameter is \"optional to the caller of the method\" NOT \"optional to the implementer of the interface\".",
+      "date": "2017-04-28T10:14:35.402Z",
+      "answerId": 4,
+      "userId": 8,
+      "id": 1
+    },
+    {
+      "content": "comment",
+      "date": "2017-04-29T06:25:27.227Z",
+      "answerId": 6,
+      "userId": 8,
+      "id": 2
+    },
+    {
+      "content": "it works :-)",
+      "date": "2017-04-29T06:25:36.973Z",
+      "answerId": 6,
+      "userId": 8,
+      "id": 3
+    }
+  ],
+  "tips": [
+    {
+      "id": 0,
+      "content": "on pense à bien indenter son code !",
+      "url": "http://mrbool.com/importance-of-code-indentation/29079"
+    },
+    {
+      "id": 1,
+      "content": "ne pas se répéter...",
+      "url": "https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+    },
+    {
+      "content": "julien",
+      "url": "http://www.google.fr",
+      "id": 6
+    },
+    {
+      "content": "t-nation",
+      "url": "http://www.t-nation.com",
+      "id": 7
+    },
+    {
+      "content": "le nouveau dieu google",
+      "url": "http://www.google.fr",
+      "id": 8
+    },
+    {
+      "content": "comment on cuisine",
+      "url": "http://www.marmiton.org",
+      "id": 10
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Software Developer",
+      "content": "",
+      "place": "San Francisco, CA",
+      "society": "CyberCoders",
+      "date": "2017-02-21T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J3K3JM66DKJXZMP5NY8?ipath=JRG52&searchid=87ed1b4f-08ad-4563-8a98-a51d12ce43b3&siteid=ns_fr_g",
+      "tag": "Angular js",
+      "id": 1
+    },
+    {
+      "title": "Software Developer",
+      "content": "",
+      "place": "Orlando, FL",
+      "society": "Hytec Dealer Services",
+      "date": "2017-02-22T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/JCH25578PYY7SNT9QWR?ipath=JRG57&searchid=87ed1b4f-08ad-4563-8a98-a51d12ce43b3&siteid=ns_fr_g",
+      "tag": "Javascript",
+      "id": 2
+    },
+    {
+      "title": "Entry Level Software Developer",
+      "content": "",
+      "place": "Memphis, TN",
+      "society": "Cook Systems FastTrack'D",
+      "date": "2017-02-23T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J5L01L5WN4T0RDVLT8G?ipath=JRG179&searchid=488eee56-1958-47a4-b1ec-08716eba1512&siteid=ns_fr_g",
+      "tag": "C++",
+      "id": 3
+    },
+    {
+      "title": "Software Developer",
+      "content": "This is a great upside opportunity for an exceptional Software Developer in an emerging and innovative platform software company! We're looking for an energetic, highly-motivated Developer to join our fast paced client services team. If you are a Software Developer (Angular js) with experience, please read on!",
+      "place": "San Francisco, CA",
+      "society": "CyberCoders",
+      "date": "2017-03-08T01:47:18.815Z",
+      "email": "MisterSpock@ussenterprise.com",
+      "site": "www.ussenterprise.com",
+      "annonce": "",
+      "tag": "Angularjs",
+      "id": 4
+    },
+    {
+      "title": "Développeur Java",
+      "content": "",
+      "place": "Paris 8ème",
+      "society": "Triodos",
+      "date": "2017-03-21T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "https://www.indeed.fr/cmp/Triodos/jobs/Développeur-Java-64f629156b1270ff?sjdu=QwrRXKrqZ3CNX5W-O9jEvcXC4ujvmUOwskSHw4K2Xo7nOmZurWE5f7F1gLSPzaNi5xdv9USesDgTgSGmwjMouw",
+      "tag": "Java",
+      "id": 5
+    },
+    {
+      "title": "Mobile Application Software Developer",
+      "content": "",
+      "place": "Tinton Falls, NJ",
+      "society": "The Select Group",
+      "date": "2017-04-21T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J3H3XC793QHLP9442W0?ipath=JRG9&searchid=a59833e6-014b-4b4b-8031-e994066d7bb7&siteid=ns_fr_g",
+      "tag": "IOS",
+      "id": 6
+    },
+    {
+      "title": "DEA - Sr. Software Developer",
+      "content": "",
+      "place": "Bordeaux",
+      "society": "Ubisoft",
+      "date": "2017-04-22T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J3F7B77235DGZCYL0R5?ipath=JRG5&searchid=a59833e6-014b-4b4b-8031-e994066d7bb7&siteid=ns_fr_g",
+      "tag": "C++",
+      "id": 7
+    },
+    {
+      "title": "Software Developer",
+      "content": "",
+      "place": "San Francisco, CA",
+      "society": "CyberCoders",
+      "date": "2017-04-23T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J3K3JM66DKJXZMP5NY8?ipath=JRG52&searchid=87ed1b4f-08ad-4563-8a98-a51d12ce43b3&siteid=ns_fr_g",
+      "tag": "Angular js",
+      "id": 8
+    },
+    {
+      "title": "Software Developer",
+      "content": "Our Client is looking for a Software Developer to be a part of a growing Information Technology and Finance team. This person is responsible for creating solutions to enhance the existing internal systems or create new applications to support our continued growth.",
+      "place": "Bordeaux",
+      "society": "Nemesis",
+      "date": "2017-04-24T01:47:18.815Z",
+      "email": "drh@nemesis.com",
+      "site": "www.nemesis.com",
+      "annonce": "",
+      "tag": "PHP",
+      "id": 9
+    },
+    {
+      "title": "Software Developer",
+      "content": "Suitable candidate should have 5+ years’ experience C# .Net, creating Web-services,  SQL Stored Procedures, SSRS, SSIS.   Seeking a self-sufficient developer who can take business concepts and architect a successful project completion. Developer will report directly to CTO of company. Developer is responsible for documentation and source control while manage the development projects. Projects include internal projects and customer paid projects. Typical number of projects per year average 4-6 projects.",
+      "place": "Lille",
+      "society": "Ajx",
+      "date": "2017-04-24T10:47:18.815Z",
+      "email": "drh-ajx@ajx.fr",
+      "site": "www.ajx.com",
+      "annonce": "",
+      "tag": "Javascript",
+      "id": 10
+    },
+    {
+      "title": "Software Developer",
+      "content": "Our client, located in the center of downtown Atlanta, GA, is seeking a software developer to work primarily on the UI of their application using AngularJS. The app has a C# back-end which connects to a MongoDB, so you would be able to use the best of the best technologies from front to back. Development breakdown is 80% front-end building out the Angular portion of the single page application, and 20% enhancing/maintaining the C# on the server-side. This is a highly critical application used company-wide as a SaaS platform.  If you are looking for a job where you get the freedom to use new technologies, have an opinion in the development process, and function more or less autonomously, then this is the job for you.",
+      "place": "San-Bernardino",
+      "society": "Apple",
+      "date": "2017-04-24T11:47:18.815Z",
+      "email": "tim@apple.com",
+      "site": "www.apple.com",
+      "annonce": "",
+      "tag": "Angularjs",
+      "id": 11
+    },
+    {
+      "title": "Développeur Java",
+      "content": "",
+      "place": "Paris 8ème",
+      "society": "Triodos",
+      "date": "2017-04-25T09:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "https://www.indeed.fr/cmp/Triodos/jobs/Développeur-Java-64f629156b1270ff?sjdu=QwrRXKrqZ3CNX5W-O9jEvcXC4ujvmUOwskSHw4K2Xo7nOmZurWE5f7F1gLSPzaNi5xdv9USesDgTgSGmwjMouw",
+      "tag": "Java",
+      "id": 12
+    },
+    {
+      "title": "Software Developer",
+      "content": "Our client, a nationwide household name in the entertainment industry, has budget approved to hire a PHP Developer who will be focusing on web projects.  In this role you will be conducting development and support of high-availability, customer-facing systems and applications.  Projects include streaming video, video on demand, social media integration, and automation.",
+      "place": "Melun",
+      "society": "Principle Solutions Group",
+      "date": "2017-04-25T11:47:18.815Z",
+      "email": "rene@caramail.com",
+      "site": "",
+      "annonce": "",
+      "tag": "PHP",
+      "id": 13
+    },
+    {
+      "title": "Software Developer",
+      "content": "Our highly-recognized, leading entertainment and media company, client is looking for an experienced PHP Developer to work on upgrading and redesigning its enterprise web platform. This is a great opportunity to work on end-to-end development with a dynamic and data-driven team, to deploy a highly visible web applications.  If you are interested in Full-Stack, end-to-end development, while working in an Agile environment, we would love to speak with you.",
+      "place": "Bologne",
+      "society": "Principle Solutions Group",
+      "date": "2017-04-26T01:47:18.815Z",
+      "email": "gabriela@nutella.com",
+      "site": "www.nutella.com",
+      "annonce": "",
+      "tag": "Symfony",
+      "id": 14
+    },
+    {
+      "title": "Software Developer",
+      "content": "If you are an experienced Android Software Developer looking for a position with a leading company, Bartech can help! We are a leading staffing firm and our clients include some of the nation’s biggest companies. Our client has a need for a Android Software Developer. This is a contract position; however it is not uncommon for assignments to transition into permanent positions with our client companies. If you have the background we are looking for, and you are interested in an opportunity to get your foot in the door with a leading company, we want to talk with you!",
+      "place": "Saint-Georges-sous-Clisson",
+      "society": "Bartech Group",
+      "date": "2017-04-26T11:47:18.815Z",
+      "email": "raymond@wanadoo.fr",
+      "site": "www.CharcuterieBoulloche.com",
+      "annonce": "",
+      "tag": "Android",
+      "id": 15
+    },
+    {
+      "title": "Android Developer",
+      "content": "Strategic Staffing Solutions (S3) prides itself on being an international IT Staffing and Solutions Company with 25 years’ experience recruiting and managing exceptional IT and Business consultants for customers in the Financial, Energy, Public Sector and Retail Distribution industries.  A privately held, financially strong, woman-owned company, S3 is a full service IT firm, with 24 major market locations in the U.S!",
+      "place": "Biarritz",
+      "society": "Strategic Staffing Solutions",
+      "date": "2017-04-26T13:47:18.815Z",
+      "email": "surflife@oackley.com",
+      "site": "www.oackley.com",
+      "annonce": "",
+      "tag": "Android",
+      "id": 16
+    },
+    {
+      "title": "Mobile Application Software Developer",
+      "content": "",
+      "place": "Tinton Falls, NJ",
+      "society": "The Select Group",
+      "date": "2017-04-26T15:26:11.776Z",
+      "email": "",
+      "site": "",
+      "annonce": "http://www.careerbuilder.com/job/J3H3XC793QHLP9442W0?ipath=JRG9&searchid=a59833e6-014b-4b4b-8031-e994066d7bb7&siteid=ns_fr_g",
+      "tag": "IOS",
+      "id": 17
+    },
+    {
+      "title": "Software Developer",
+      "content": "Vencore Labs (formerly Applied Communication Sciences) is a self-sustaining research center within Vencore that provides applied research and engineering to enable government agencies, utilities and commercial enterprises to fully exploit the future of communications, data analytics and cyber security. From smart grid to smart phones, intelligent highways to intelligent battlefields, Vencore Labs’ 200 scientists, engineers and analysts are consistently creating generation-after-next technologies and solutions.  In doing so, our labs are helping to transform traditional government research.  We connect our customers to advanced research and technology helping them to develop solutions to their toughest challenges.  Accelerating the arc of transformation — from research to engineering to products — that’s what we focus on each day at Vencore Labs. Graduated from the Wild Code School is a mega big plus.",
+      "place": "Bordeaux",
+      "society": "Vencore",
+      "date": "2017-04-27T09:26:11.776Z",
+      "email": "surflife@oackley.com",
+      "site": "www.Vencore.fr",
+      "annonce": "",
+      "tag": "Python",
+      "id": 18
+    }
+  ],
+  "votes_question": [
+    {
+      "userId": 8,
+      "questionId": 18,
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "questionId": 1,
+      "id": 2
+    },
+    {
+      "userId": 9,
+      "questionId": 18,
+      "id": 3
+    },
+    {
+      "userId": 8,
+      "questionId": 51,
+      "id": 4
+    }
+  ],
+  "votes_answer": [
+    {
+      "userId": 8,
+      "answerId": 4,
+      "id": 1
+    },
+    {
+      "userId": 8,
+      "answerId": 3,
+      "id": 2
+    }
+  ],
+  "ressources": [
+    {
+      "id": 1,
+      "title": "Open Classroom",
+      "content": "Dynamisez vos sites web avec JavaScript !",
+      "tagId": 1,
+      "url": "https://openclassrooms.com/courses/dynamisez-vos-sites-web-avec-javascript/premiers-pas-en-javascript"
+    },
+    {
+      "id": 2,
+      "title": "Code School",
+      "content": "An introduction to the very basics of the JavaScript language. Build a foundation of JavaScript syntax and learn how to use values, variables, and files.",
+      "tagId": 1,
+      "url": "https://www.codeschool.com/courses/javascript-road-trip-part-1"
+    },
+    {
+      "id": 3,
+      "title": "Angularjs.org",
+      "content": "Le site officiel de Angularjs",
+      "tagId": 2,
+      "url": "https://angularjs.org"
+    },
+    {
+      "id": 4,
+      "title": "Open Classroom",
+      "content": "Développez vos applications web avec AngularJS",
+      "tagId": 2,
+      "url": "https://openclassrooms.com/courses/developpez-vos-applications-web-avec-angularjs?status=published"
+    },
+    {
+      "id": 5,
+      "title": "Open Classroom",
+      "content": "Concevez votre site web avec PHP et MySQL",
+      "tagId": 3,
+      "url": "https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql"
+    },
+    {
+      "id": 6,
+      "title": "Code Academy",
+      "content": "By end the end of this course, you'll have gained familiarity with a very convenient, flexible server-side language: PHP. You'll be exposed to many fundamental programming concepts such as data types, functions, control flow, and more.",
+      "tagId": 3,
+      "url": "https://www.codecademy.com/fr/learn/php"
+    },
+    {
+      "id": 7,
+      "title": "École Polytechnique Fédérale de Lausanne",
+      "content": "Ce cours initie à la programmation en utilisant le langage Java. Il ne présuppose pas de connaissance préalable. Les aspects plus avancés (programmation orientée objet) sont donnés dans un cours suivant, «Introduction à la programmation orientée objet (en Java)».",
+      "tagId": 4,
+      "url": "https://www.coursera.org/learn/init-prog-java"
+    },
+    {
+      "id": 8,
+      "title": "Code Academy",
+      "content": "In this course you'll be exposed to fundamental programming concepts, including object-oriented programming (OOP) using Java. You'll build 7 Java projects—like a basic calculator—to help you practice along the way.",
+      "tagId": 4,
+      "url": "https://www.codecademy.com/learn/learn-java"
+    },
+    {
+      "id": 9,
+      "title": "Solo Learn",
+      "content": "Gain an understanding of C# concepts by going through short interactive texts and follow-up fun quizzes. Topics include: variables, conditional statements and loops, methods, classes, arrays, strings, encapsulation, inheritance, polymorphism, interfaces, exceptions, generics, and more!",
+      "tagId": 5,
+      "url": "https://www.sololearn.com/Course/CSharp/"
+    },
+    {
+      "id": 10,
+      "title": "Microsoft Virtual Academy",
+      "content": "Programming in C# Jump Start",
+      "tagId": 5,
+      "url": "https://mva.microsoft.com/en-us/training-courses/programming-in-c-jump-start-14254?l=j0iuozSfB_6900115888"
+    },
+    {
+      "id": 11,
+      "title": "Code Academy",
+      "content": "You'll learn how to add interactivity and animations to a website while getting introduced to JavaScript. By the end of the course, you'll have practiced how to do this in several projects, and you'll get a chance to add functionality to the project you built at the end of the Make a Website course.",
+      "tagId": 6,
+      "url": "https://www.codecademy.com/fr/learn/jquery"
+    },
+    {
+      "id": 12,
+      "title": "Code Academy",
+      "content": "This course is a great introduction to both fundamental programming concepts and the Python programming language. By the end, you'll be familiar with Python syntax and you'll be able to put into practice what you'll have learned in a final project you'll develop locally.",
+      "tagId": 7,
+      "url": "https://www.codecademy.com/fr/learn/python"
+    },
+    {
+      "id": 13,
+      "title": "Code Academy",
+      "content": "In this course, you will gain familiarity in Ruby around basic programming concepts—including variables, loops, control flow, and most importantly, object-oriented programming. You'll get a chance to test your understanding in a final project which you'll build locally.",
+      "tagId": 8,
+      "url": "https://www.codecademy.com/fr/learn/ruby"
+    },
+    {
+      "id": 14,
+      "title": "UdaCity",
+      "content": "In this course you will learn how to make asynchronous requests with JavaScript (using jQuery’s AJAX functionality), and gain a better understanding of what’s actually happening when you do so. You will also learn how to use data APIs so you can take advantage of freely accessible data in your applications, including photo results, news articles and up-to-date data about the world around us.",
+      "tagId": 9,
+      "url": "https://www.udacity.com/course/intro-to-ajax--ud110"
+    },
+    {
+      "id": 15,
+      "title": "Lynda.com",
+      "content": "Whether you want to learn how to read, write, or create XML, our XML tutorials cover basic rules and advanced techniques. Understand XML documents and schemas, how XML works with JavaScript, and real-world DOM algorithms.",
+      "tagId": 10,
+      "url": "https://www.lynda.com/XML-training-tutorials/334-0.html"
+    },
+    {
+      "id": 16,
+      "title": "Code School",
+      "content": "Learn how to make your first iOS app with Swift, and discover some of the more common pieces of the UIKit framework and how to use them with Swift.",
+      "tagId": 11,
+      "url": "https://www.codeschool.com/courses/app-evolution-with-swift"
+    },
+    {
+      "id": 17,
+      "title": "Linux Academy",
+      "content": "We provide the best Linux and cloud training for all skill levels.",
+      "tagId": 12,
+      "url": "https://linuxacademy.com"
+    },
+    {
+      "id": 18,
+      "title": "Code School",
+      "content": "Discover how the Node framework can help you write server-side code and build lightweight, scalable network applications.",
+      "tagId": 13,
+      "url": "https://www.codeschool.com/courses/real-time-web-with-node-js"
+    },
+    {
+      "id": 19,
+      "title": "Code School",
+      "content": "Learn the basics of iOS development with the Objective-C language. Start learning to develop iPhone, iPad, and Mac apps by building a foundation on Objective-C.",
+      "tagId": 14,
+      "url": "https://www.codeschool.com/courses/try-objective-c"
+    },
+    {
+      "id": 20,
+      "title": "Code Academy",
+      "content": "Spoiler alert: every web page on the Internet is secretly written in HyperText Markup Language, otherwise known as 'HTML.' So why don't you see code and markup everywhere? Well, your browser reads HTML for you and just shows you the pretty version. It is sheltering you!",
+      "tagId": 15,
+      "url": "https://www.codecademy.com/courses/html-one-o-one/0/1"
+    },
+    {
+      "id": 21,
+      "title": "Code School",
+      "content": "Explore the fundamentals of CSS, and review all the web-styling tools needed for front-end efficiency",
+      "tagId": 16,
+      "url": "https://www.codeschool.com/courses/css-cross-country"
+    },
+    {
+      "id": 22,
+      "title": "Code School",
+      "content": "Dig into the bedrock of a Django app — models, templates, and views — and build one of your own along the way.",
+      "tagId": 17,
+      "url": "https://www.codeschool.com/courses/try-django"
+    },
+    {
+      "id": 23,
+      "title": "Lynda.com",
+      "content": "Learn how to build a website or blog in WordPress with our video tutorials. In these courses, you'll learn how to install WordPress and configure it for SEO, design a WordPress theme, create an ecommerce website, and publish your images and posts with the open-source WordPress content management system.",
+      "tagId": 18,
+      "url": "https://www.lynda.com/WordPress-training-tutorials/330-0.html"
+    },
+    {
+      "id": 24,
+      "title": "Code Academy",
+      "content": "Bootstrap is a CSS framework used to build pages faster. Bootstrap provides a lot of useful CSS out of the box. Check out the Bootstrap file at 'http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css' - it has CSS properties and values, many of which you've seen already, to style HTML.To use Bootstrap in a web page, you need to link to it from index.html.",
+      "tagId": 19,
+      "url": "https://www.codecademy.com/courses/web-beginner-en-yjvdd/0/1"
+    },
+    {
+      "id": 25,
+      "title": "Material Design official",
+      "content": "We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. This spec is a living document that will be updated as we continue to develop the tenets and specifics of material design.",
+      "tagId": 20,
+      "url": "https://material.io/guidelines/material-design/introduction.html"
+    },
+    {
+      "id": 26,
+      "title": "Microsoft Virtual Academy",
+      "content": "Découvrir Visual Studio et tout savoir pour l'utiliser efficacement",
+      "tagId": 21,
+      "url": "https://mva.microsoft.com/fr-fr/training-courses/d-couvrir-visual-studio-et-tout-savoir-pour-l-utiliser-efficacement-14265?l=wrK6Y8UfB_4700115888"
+    },
+    {
+      "id": 27,
+      "title": "Excel-pratique",
+      "content": "ou can easily learn VBA by working your way through the variety of free lessons that we offer ...If you think that creating macros is too complicated or beyond your capacity, don't worry, this course is intended for those of us who are just starting out in programming, so it starts from zero.",
+      "tagId": 22,
+      "url": "https://www.excel-pratique.com/en/vba.php"
+    },
+    {
+      "id": 28,
+      "title": "Udacity",
+      "content": "This course will introduce you to the content available through the Google Maps APIs. You’ll be walked through building a real-estate listings site step-by-step, using a beautifully styled Google map, data visualization, street view panoramas, and various nifty location related features such as calculating distance between locations, getting directions, and viewing places of interest data. You’ll also see other examples of Google Maps APIs in action, and understand how to put your new knowledge into practice by creating your own Project in the Google APIs Console.",
+      "tagId": 23,
+      "url": "https://www.udacity.com/course/google-maps-apis--ud864"
+    },
+    {
+      "id": 29,
+      "title": "Udemy",
+      "content": "This one is a FREE course drived from our premium course on JSP, Servlet and JSTL 'Java server pages (JSP),Servlet & JSTL tutorial'. The purpose of the course is to provide basic required knowledge so that it can become foundation for the student who wants to learn advance framework like spring, JSF Etc in future. This course will cover the basic of Servlets and JSP and the student would get a fair idea how an JSP application web application is built. Even though this course covers basic concepts, We recommend you to also check the advance courses on JSP & servlet as that will surly be better before you dig more into Java advance technologies.",
+      "tagId": 24,
+      "url": "https://www.udemy.com/jsp-servlet-free-course/"
+    },
+    {
+      "id": 30,
+      "title": "Lynda.com",
+      "content": "Learn how to use Apache, from beginner basics to advanced techniques, with online video tutorials taught by industry experts.",
+      "tagId": 25,
+      "url": "https://www.lynda.com/Apache-training-tutorials/1279-0.html"
+    }
+  ]
+}

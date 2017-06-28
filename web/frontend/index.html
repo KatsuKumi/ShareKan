@@ -30,12 +30,17 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.js"></script>
     <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-resource.js"></script>-->
-    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
 
     <script src="/app.modules.js"></script>
     <script src="/app.routes.js"></script>
     <script src="/components/main/main.component.js"></script>
-   
+    <script src="/components/kanlist/kanList.js"></script>
+    <script src="/components/kanlists/kanLists.js"></script>
+    <script src="/components/kanProfile/kanProfile.js"></script>
+    <script src="/services/kanList.js"></script>
+
+
     <script src="/node_modules/angular-utils-pagination/dirPagination.js"></script>
     <!--<script src="/node_modules/angular-tooltips/dist/angular-tooltips.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/trix/0.9.2/trix.js"></script>
@@ -46,13 +51,14 @@
     <title>ShareKan</title>
 </head>
 
-
 <body>
-
-
     <mainjs></mainjs>
-
-
 </body>
+
+<footer class="page-footer #d84315 deep-orange darken-3">
+    <div class="container">
+        <a>© 2017 Copyright Text</a>
+    </div>
+</footer>
 
 </html>
