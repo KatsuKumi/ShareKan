@@ -1,176 +1,29 @@
-<div id="main">
-
-    <!-- Modal Structure -->
-    <div id="login" class="modal">
-        <div class="bloc_center">
-
-            <div class="row">
-                <div class="col s12">
-                    <ul tabs reload="allTabContentLoaded">
-                        <li class="tab col s6"><a class="active" href="#connexion">Log In</a></li>
-                        <li class="tab col s6"><a href="#creation">Create Your Account</a></li>
-                    </ul>
-                </div>
-
-                <div id="connexion" class="col s12">
-                    <div ng-show="$ctrl.user.lenght < 5">
-                        <div class="row">
-                            <div class="col s12">
-                                <div class="card-panel red darken-3">
-                                    <span class="white-text">
-                                    Your email or your password is not valid
-                                 </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="mail" type="text" ng-model="$ctrl.email" class="validate">
-                            <label for="password">Email</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="password" type="password" ng-model="$ctrl.password" class="validate">
-                            <label for="password">Password</label>
-                        </div>
-                    </div>
-                    <center>
-                        <a class="waves-effect waves-light btn-large" ng-click="$ctrl.connection($ctrl.email,$ctrl.password)"><i class="material-icons right">cloud</i>Log In</a>
-                    </center>
-                </div>
-
-                <div id="creation" class="col s12">
-                    <form name="myForm2" ng-submit="$ctrl.submitCreation($ctrl.user)" novalidate>
-                        <div class="row">
-                            <form class="col s12">
-                                <div class="row">
-                                    <div class="input-field col s6">
-                                        <input id="first_name" ng-model="$ctrl.user.nom" type="text" class="validate">
-                                        <label for="first_name">Last Name</label>
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <input id="last_name" type="text" ng-model="$ctrl.user.prenom" class="validate">
-                                        <label for="last_name">First Name</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="input-field col s6">
-                                        <input id="email" type="text" ng-model="$ctrl.user.pseudo" class="validate">
-                                        <label for="email">Profile Name</label>
-                                    </div>
-                                    <div class="input-field col s6">
-                                        <input id="password" type="password" ng-model="$ctrl.user.mdp" class="validate">
-                                        <label for="password">Password</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="input-field col s12">
-                                        <input id="email" type="email" ng-model="$ctrl.user.email" class="validate">
-                                        <label for="email">Email</label>
-
-                                    </div>
-                                    <div ng-show="$ctrl.user.email.toLowerCase().indexOf(('@gmail.com').toLowerCase()) == -1">
-                                        <center><small>A Gmail address is mandatory
-                                        
-                                        </address></small></center>
-                                    </div>
-                                </div>
-                                <center>
-                                    <button class="btn waves-effect waves-light" type="submit" name="action">Create
-                                    <i class="material-icons right">send</i>
-                                </button>
-                                </center>
-                            </form>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <header>
-
-        <!--Trigger du DropDown-button-->
-
-        <ul id="administracion" class="dropdown-content" ng-init="$ctrl.rebindDropDowns()">
-            <li>
-                <a href="#login" class="loginpop">Log In</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-                <a ui-sref="userprofile" ui-sref-active="select">Profile</a>
-            </li>
-        </ul>
-
-        <!--Barre de Nav-->
-
-        <div class="navbar-fixed">
-            <nav class="#455a64 blue-grey darken-2">
-                <div class="nav-wrapper container" ng-controller="main as ctrl">
-                    <a class="brand-logo" ui-sref="home" ui-sref-active="select"><img src="frontend/assets/img/logo_orange_pastille.png" alt="logo" id="logo"></a>
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+<!--Barre de Nav-->
+<header>
+    <div>
+        <nav>
+            <div class="navbar-fixed">
+                <nav class="#455a64 blue-grey darken-2">
+                    <!--<div class="nav-wrapper container" ng-controller="main as ctrl">-->
                     <ul class="right hide-on-small-only" data-activates="mobile-demo">
                         <li>
-                            <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+                            <form ng-submit="$ctrl.getSearchMusic()" id="search">
                                 <input name="q" type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
                             </form>
                         </li>
                         <li>
-                            <a ui-sref="questions" ui-sref-active="select" tooltips tooltip-template="Questions" tooltip-side="bottom"><i class="material-icons">reorder</i></a>
+                            <a ui-sref="Playlists" ui-sref-active="select" tooltips tooltip-template="Questions" tooltip-side="bottom"><i class="material-icons">reorder</i></a>
                         </li>
-                        <li>
-                            <a ui-sref="users" ui-sref-active="select" tooltips tooltip-template="Users" tooltip-side="bottom"><i class="material-icons">group</i></a>
-                        </li>
-                        <li>
-                            <a ui-sref="jobs" ui-sref-active="select" tooltips tooltip-template="Jobs" tooltip-side="bottom"><i class="material-icons">work</i></a>
-                        </li>
-                        <li>
-                            <a ui-sref="tips" ui-sref-active="select" tooltips tooltip-template="Tips&Tricks" tooltip-side="bottom"><i class="material-icons">lightbulb_outline</i></a>
-                        </li>
-                        <li>
-                            <a ui-sref="nuage" ui-sref-active="select" tooltips tooltip-template="Tags&Ressources" tooltip-side="bottom"><i class="material-icons">pageview</i></a>
-                        </li>
-                        <!--<li ng-hide="ctrl.isAuthenticated"><a class="dropdown-button" data-activates="administracion"><i class="material-icons">face</i></a></li>-->
-
-                        <!--<li id="loginBtn" ng-hide="ctrl.isAuthenticated"><a class="waves-effect waves-light btn" ui-sref="login" ui-sref-active="select">Connection</a></li>
-                                                <li ng-if="ctrl.isAuthenticated">
-                            <a ui-sref="profile" ui-sref-active="select">
-                                <i class="material-icons">face</i>
-                            </a>
-                        </li>
-                        <li ng-if="ctrl.isAuthenticated"><a class="waves-effect waves-light btn" ng-click="ctrl.disconnect()">Disconnect</a></li>-->
-                        <li id="loginBtn" ng-click="$ctrl.openModal()" ng-show="$ctrl.cookieUser == null"><a class="waves-effect waves-light btn" ui-sref-active="select">Log In</a></li>
-                        <li ng-show="$ctrl.cookieUser != null"><a ui-sref="person({personId:$ctrl.cookieUser})" ui-sref-active="select"><i class="material-icons">face</i></a></li>
-                        <li ng-show="$ctrl.cookieUser != null"><a ng-click="$ctrl.deconnexion()" class="waves-effect waves-light btn" ui-sref-active="select">Log Out</a></li>
-
                     </ul>
-
-                    <!--Barre de nav 'sidebar' version mobile-->
-                    <ul class="side-nav" id="mobile-demo" ng-click="$ctrl.rebindDropDowns()">
-                        <li><a ui-sref="questions" ui-sref-active="select">Questions</a></li>
-                        <li><a ui-sref="users" ui-sref-active="select">Users</a></li>
-                        <li><a ui-sref="jobs" ui-sref-active="select">Jobs</a></li>
-                        <li><a ui-sref="tips" ui-sref-active="select">Tips&Tricks</a></li>
-                        <li><a ui-sref="nuage" ui-sref-active="select">Tags&Ressources</a></li>
-                        <li id="loginBtn" ng-click="$ctrl.openModal()" ng-show="$ctrl.cookieUser == null"><a class="waves-effect waves-light btn" ui-sref-active="select">Log In</a></li>
-                        <li ng-show="$ctrl.cookieUser != null"><a ui-sref="person({personId:$ctrl.cookieUser})" ui-sref-active="select">Profil</a></li>
-                        <li ng-show="$ctrl.cookieUser != null"><a ng-click="$ctrl.deconnexion()" class="waves-effect waves-light btn" ui-sref-active="select">Log Out</a></li>
-                    </ul>
-                </div>
+            </div>
             </nav>
-        </div>
-    </header>
-    <ui-view info=$ctrl.info></ui-view>
+    </div>
+</header>
 
-    <footer class="page-footer">
-        <div class="container">
-            <img src="frontend/assets/img/Logo/Logo WAS blanc.png" alt="">
-                <a class="grey-text text-lighten-4 right">© 2016 Copyright Text</a>
-                <a class="grey-text text-lighten-4 right" href="https://wildcodeschool.fr" target="_blank">La Wild Code School</a>
-        </div>
-    </footer>
+<footer class="page-footer">
+    <div class="container">
+        <a class="grey-text text-lighten-4 right">© 2016 Copyright Text</a>
+        <a class="grey-text text-lighten-4 right" href="https://wildcodeschool.fr" target="_blank">La Wild Code School</a>
+    </div>
+</footer>
 </div>

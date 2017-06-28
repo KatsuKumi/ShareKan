@@ -1,0 +1,15 @@
+{
+  "name": "sharekan",
+  "version": "1.0.0",
+  "description": "Hackhathon2",
+  "main": "app.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JPAAP Francois",
+  "license": "MIT",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.3",
+    "angular-utils-pagination": "^0.11.1"
+  }
+}
