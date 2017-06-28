@@ -1,7 +1,7 @@
 'use strict';
 
-var WEA = angular.module('WildExchange', ['wild.components', 'wild.services', 'ui.router', 'ui.materialize', 'angularUtils.directives.dirPagination', '720kb.tooltips', 'cgNotify', 'angularTrix', 'ngSanitize','ngCookies']);
+var SHARE = angular.module('ShareKan', ['share.components', 'share.services', 'ui.router', 'ui.materialize', 'angularUtils.directives.dirPagination']);
 
-const COMPNT = angular.module('wild.components', []);
+const COMPNT = angular.module('share.components', []);
 
-const SERVICES = angular.module('wild.services', []);
+const SERVICES = angular.module('share.services', []);
