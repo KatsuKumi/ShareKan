@@ -20,7 +20,7 @@ SERVICES.service('kanListService', ['$http', '$log', '$q', function ($http, $log
 
     this.getKanListP = () => {
     return $q((resolve, reject) => {
-      $http.get("/api/playlist/get").then((response) => {
+      $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all").then((response) => {
         resolve(response.data);
         console.log(response.data);
       })
