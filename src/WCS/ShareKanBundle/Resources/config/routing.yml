@@ -1,0 +1,7 @@
+wcs_share_kan_homepage:
+    path:     /
+    defaults: { _controller: WCSShareKanBundle:Default:index }
+
+login:
+    path:  /login
+    defaults: { _controller: WCSShareKanBundle:Default:index }
