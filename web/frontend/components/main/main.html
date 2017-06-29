@@ -1,6 +1,6 @@
 <!--Barres de Nav-->
-    <div class="navbar-fixed">
-        <nav class="#e0e0e0 grey lighten-2">
+<!--    <div class="navbar-fixed">
+        <nav>
             <div class="nav-wrapper container">
                 <form ng-submit="$ctrl.getSearchQuestions()" id="search">
                     <input type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
@@ -8,43 +8,111 @@
                 </form>
             </div>
         </nav>
-    </div>
+    </div>-->
 
+<script type="text/javascript" src="/soundcloud.player.api.js"></script>
+<script type="text/javascript">
+    soundcloud.addEventListener('onPlayerReady', function(player, data) {
+        player.api_play();
+    });
+</script>
 <div>
-    <ul id="slide-out" class="side-nav fixed #e0e0e0 grey lighten-2">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img src="images/office.jpg">
-                </div>
-                <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-                <a href="#!name"><span class="white-text name">John Doe</span></a>
-                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-            </div>
-        </li>
-        <li><a ui-sref="kanProfile"><i class="material-icons">face</i>My KanProfile</a></li>
-        <li><a class="waves-effect">My KanLists</a></li>
-        <li>
-            <div class="divider"></div>
-        </li>
-        <li><a class="waves-effect" ui-sref="kanLists">KanList of the Day</a></li>
-    </ul>
-    <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+    <nav>
+        <div class="nav-wrapper fixed">
+            <a href="#" class="brand-logo"><img src="/logo.png "></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="heightexpandable"><a href="sass.html"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+                <li class="heightexpandable"><a href="badges.html"><i class="material-icons">queue_music</i>My KanLists</a></li>
+                <li class="heightexpandable"><a href="collapsible.html"><i class="material-icons">email</i>Invitations</a></li>
+                <li>
+                    <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+                        <input type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
+                    </form>
+                </li>
+            </ul>
+            <ul class="right">
+                <li>
 
-    <script>
-        // Initialize collapse button
-        $(".button-collapse").sideNav();
-        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-        $('.collapsible').collapsible();
-    </script>
-    <script>
-        $('.button-collapse').sideNav({
-            menuWidth: 300, // Default is 300
-            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-            draggable: true, // Choose whether you can drag to open on touch screens,
-        });
-    </script>
+                    <a class="hide-on-large-only">
+
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
 
-    <ui-view></ui-view>
+<ul id="slide-out" class="side-nav fixed right">
+    <li>
+        <a href="#" id="profile" class="white-text">
+                <i class="white-text medium material-icons icons">perm_identity</i>
+                Baptiste Abrioux
+        </a>
+    </li>
+    <li><div class="divider"></div></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+</ul>
+
+<div class="row content">
+    <div class="col l6 offset-l3 m12">
+        <div class="col m1">
+        </div>
+        <div class="col m12">
+            <div class="titleplaylist center">Titre de la playlist en cours 03/15</div>
+            <!--<div id="337309445865161418" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">-->
+                <!--<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163365343&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">-->
+                <!--</iframe>-->
+            <!--</div>-->
+
+            <iframe width="100%" height="315"  scrolling="no" frameborder="no"
+                    src="https://www.youtube.com/embed/XGSy3_Czz8k">
+            </iframe>
+            <!--<iframe width="100%"  height="90" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=3135556&app_id=230222" width="700" height="350"></iframe>-->
+
+
+            <div class="titlemusic center">Titre de la musique en cours</div>
+            <ul class="taglist">
+                <li>Rock</li>
+                <li>Pop</li>
+            </ul>
+            <div class="divider"></div>
+            <table class="tableplaylist" style="width:100%">
+                    <tr>
+                        <th>Titre</th>
+                        <th>Nb</th>
+                        <th>Créateur</th>
+                        <th> </th>
+                    </tr>
+                <tr>
+                    <td>Titre Playlist </td>
+                    <td>30</td>
+                    <td>Machin</td>
+                    <td>
+                        <i class="green material-icons">play_arrow</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Titre Playlist </td>
+                    <td>30</td>
+                    <td>Machin</td>
+                    <td>
+                        <i class="green material-icons">play_arrow</i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col m1">
+        </div>
+    </div>
+</div>
+<ui-view></ui-view>
 
