@@ -1,12 +1,25 @@
 /*NavBar verticale*/
 body{
-    background-color: rgb(36,36,36);
+    background-color: rgb(42,42,42);
+}
+#slide-out{
+    font-size: 28px;
+}
+.icons {
+    margin-right: 20px;
+ }
+.brand-logo{
+    height: 80px;
+}
+.brand-logo img{
+    height: 100%;
+    width: auto;
 }
 
 /*NavBar horizontale*/
 #search input[type="text"] {
     background: url(/frontend/assets/img/search-white.png) no-repeat 10px 6px #fcfcfc;
-    margin: 0px 0px 0px 2%;
+    margin: 0px 5% 0px 2%;
     height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -33,7 +46,6 @@ body{
     background-color: rgb(64,64,64);
     border-bottom: none;
 }
-
 /*Body Accueil*/
 .container {
     margin: 0px 0px 0px 30%;
@@ -53,9 +65,23 @@ footer a {
     color: white !important;
 }
 .side-nav.fixed{
+
+    right: 0 !important;
+    left: auto !important;
     background-color: rgb(36,36,36);
-    box-shadow:       none;
+    box-shadow: none;
     text-align: center;
+    width: 250px;
+}
+@media screen and (max-width: 992px) {
+    .side-nav.fixed {
+        -webkit-transform: translateX(+105%);
+        transform: translateX(+105%);
+    }
+
+    .nav-wrapper ul{
+        margin-right: 0 !important;
+    }
 }
 .side-nav li > a{
     color: white !important;
@@ -64,6 +90,12 @@ footer a {
     text-align: center;
     margin-top: 20px;
     height: 50px;
+}
+.nav-wrapper ul{
+    margin-right: 250px;
+}
+.side-nav .divider{
+    margin: 50px 50px 50px 50px;
 }
 .heightexpandable{
     overflow: hidden;
@@ -78,11 +110,50 @@ footer a {
 
 }
 .nav-wrapper{
-    background-color: rgb(36,36,36);
+    background-color: rgb(42,42,42);
 }
 nav {
     box-shadow: none;
 }
 .brand-logo{
     margin:20px;
+}
+#profile{
+    margin-top: 50px;
+}
+.content{
+    margin-right: 250px;
+    margin-top: 100px
+}
+.titleplaylist{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.taglist li {
+    display: inline;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+    border: solid 1px rgb(4,139,154);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.titlemusic{
+    margin-top: 25px;
+    color: white;
+
+}
+.tableplaylist th{
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: solid rgb(4,136,154) 1px;
+    text-align: center;
+}
+.tableplaylist td{
+    color:white;
+    text-align: center;
 }

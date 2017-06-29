@@ -10,6 +10,12 @@
         </nav>
     </div>-->
 
+<script type="text/javascript" src="/soundcloud.player.api.js"></script>
+<script type="text/javascript">
+    soundcloud.addEventListener('onPlayerReady', function(player, data) {
+        player.api_play();
+    });
+</script>
 <div>
     <nav>
         <div class="nav-wrapper fixed">
@@ -24,9 +30,89 @@
                     </form>
                 </li>
             </ul>
+            <ul class="right">
+                <li>
+
+                    <a class="hide-on-large-only">
+
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
 </div>
 
-    <ui-view></ui-view>
+<ul id="slide-out" class="side-nav fixed right">
+    <li>
+        <a href="#" id="profile" class="white-text">
+                <i class="white-text medium material-icons icons">perm_identity</i>
+                Baptiste Abrioux
+        </a>
+    </li>
+    <li><div class="divider"></div></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+    <li><a class="active" href="#">Youtube</a></li>
+</ul>
+
+<div class="row content">
+    <div class="col l6 offset-l3 m12">
+        <div class="col m1">
+        </div>
+        <div class="col m12">
+            <div class="titleplaylist center">Titre de la playlist en cours 03/15</div>
+            <!--<div id="337309445865161418" align="left" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">-->
+                <!--<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/163365343&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">-->
+                <!--</iframe>-->
+            <!--</div>-->
+
+            <iframe width="100%" height="315"  scrolling="no" frameborder="no"
+                    src="https://www.youtube.com/embed/XGSy3_Czz8k">
+            </iframe>
+            <!--<iframe width="100%"  height="90" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=3135556&app_id=230222" width="700" height="350"></iframe>-->
+
+
+            <div class="titlemusic center">Titre de la musique en cours</div>
+            <ul class="taglist">
+                <li>Rock</li>
+                <li>Pop</li>
+            </ul>
+            <div class="divider"></div>
+            <table class="tableplaylist" style="width:100%">
+                    <tr>
+                        <th>Titre</th>
+                        <th>Nb</th>
+                        <th>Créateur</th>
+                        <th> </th>
+                    </tr>
+                <tr>
+                    <td>Titre Playlist </td>
+                    <td>30</td>
+                    <td>Machin</td>
+                    <td>
+                        <i class="green material-icons">play_arrow</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Titre Playlist </td>
+                    <td>30</td>
+                    <td>Machin</td>
+                    <td>
+                        <i class="green material-icons">play_arrow</i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col m1">
+        </div>
+    </div>
+</div>
+<ui-view></ui-view>
 
