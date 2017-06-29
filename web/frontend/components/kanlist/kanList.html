@@ -1,9 +1,7 @@
 <div class="container">
-  <div class="kanList flex" ng-repeat="kanL in $ctrl.kanList | limitTo : 10">
+  <div class="kanList flex" ng-repeat="kanList in $ctrl.kanLists | limitTo : 5">
 
-    <div>
-      <a>{{kanL.title}}</a>
-    </div>
+    <ng-youtube-embed video='kanList.url' autoplay="false" color="white" disablekb="true" end="20" width="200" height="140"></ng-youtube-embed>
 
   </div>
 </div>

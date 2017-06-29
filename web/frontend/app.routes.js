@@ -7,11 +7,12 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             name: 'kanList',
             url: '/kanList',
             component: 'kanList',
-            resolve: {
-                kanList: function (kanListService) {
-                    return kanListService.getKanListP();
-                }
-            }
+            // resolve: {
+            //     kanList: function (kanListService) {
+            //         kanListService.getKanListP();
+
+            //     }
+            // }
         })
 
         .state({
@@ -24,6 +25,17 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             name: 'kanProfile',
             url: '/kanProfile',
             component: 'kanProfile',
+        })
+
+        .state({
+            name: 'kanInvitation',
+            url: '/kanInvitation',
+            component: 'kanInvitation',
+            resolve : {
+                kanInvited : function(kanInvitationService) {
+                    kanInvitationService.getKanInvitationList();
+                }
+            }
         })
 
     $urlRouterProvider.otherwise('/kanList');
