@@ -85,7 +85,7 @@ fos_rest:
 nelmio_cors:
     paths:
         '^/api/':
-            allow_origin: ['http://localhost:4200',"http://127.0.0.1:8080"]
+            allow_origin: ['http://localhost:4200',"http://127.0.0.1:8080", "*"]
             allow_headers: ['origin', 'content-type', 'authorization']
             allow_methods: ['POST', 'PUT', 'GET', 'DELETE']
             max_age: 3600

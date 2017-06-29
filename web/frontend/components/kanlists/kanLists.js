@@ -14,18 +14,21 @@ COMPNT
       }
 
       this.getAllKanLists = () => {
-
-        this.kanLists = [];
-
         kanListService.getKanList().then((items) => {
           this.kanListArray = (items);
+          this.kanLists = [];
           for (let i = 0; i < this.kanListArray.length; i++) {
-            for (let j = 0; j < this.kanListArray[i].shares.length; j++) {
-              this.kanLists.push(this.kanListArray[i].shares[j]);
-              console.log(this.kanLists);
-            }
+            this.kanLists.push(this.kanListArray[i].urls[0]);
+            console.log(this.kanLists);
           }
         }).catch((err) => { });
       }
+
+      // this.saveKan = () => {
+      //   kanListService.saveKan().then(() => {
+      //     $state.go('kanLists');
+      //   }).catch((err) => { });
+      // };
+
     }]
   });
