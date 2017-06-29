@@ -1,6 +1,6 @@
 /*NavBar verticale*/
-#slide-out {
-    box-shadow: none;
+body{
+    background-color: rgb(36,36,36);
 }
 
 /*NavBar horizontale*/
@@ -46,4 +46,10 @@ footer a {
 
 .collection {
     margin: 0px 0px 0px 30%;
+}
+.side-nav.fixed{
+    background-color: rgb(42,42,42);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(28, 34, 30, 0.75);
+    -moz-box-shadow:    7px 7px 5px 0px rgba(28, 34, 30, 0.75);
+    box-shadow:         7px 7px 5px 0px rgba(28, 34, 30, 0.75);
 }
