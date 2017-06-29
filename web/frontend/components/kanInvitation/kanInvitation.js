@@ -6,14 +6,17 @@ COMPNT
     templateUrl: '/components/kanInvitation/kanInvitation.html',
 
     bindings: {
-      kanInvited:'<'
+
+      users: '<'
+
     },
 
     controller: ['kanInvitationService', '$log', function (kanInvitationService, $log) {
       this.$onInit = () => {
-        kanInvitationService.getKanInvitationList();
+        console.log(this.users);
+        
       }
 
-      
+
     }]
   });

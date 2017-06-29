@@ -8,8 +8,10 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
 
         var defer = $q.defer();
 
-        $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all").then((response) => {
+        $http.get("http://localhost:3000/users").then((response) => {
+       // $http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
             defer.resolve(response.data);
+            console.log(response.data);
         }).catch((err) => {
             $log.debug(`Error: ${err}`);
             defer.reject(err);
@@ -20,7 +22,8 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
 
     this.getKanAcceptedInvitation = (id) => {
     return $q((resolve, reject) => {
-      $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all").then((response) => {
+      $http.get("http://localhost:3000/questions").then((response) => {
+      //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
         resolve(response.data);
       })
         .catch((err) => {
