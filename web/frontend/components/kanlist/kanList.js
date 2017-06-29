@@ -14,7 +14,7 @@ COMPNT
 
         this.kanLists = [];
 
-        kanListService.getKanListP().then((items) => {
+        kanListService.getKanList().then((items) => {
           this.kanListArray = (items);
           for (let i = 0; i < this.kanListArray.length; i++) {
             for (let j = 0; j < this.kanListArray[i].shares.length; j++) {
