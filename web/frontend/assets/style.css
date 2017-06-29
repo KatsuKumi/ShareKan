@@ -1,12 +1,24 @@
 /*NavBar verticale*/
-#slide-out {
-    box-shadow: none;
+body{
+    background-color: rgb(42,42,42);
+}
+#slide-out{
+    font-size: 28px;
+}
+.icons {
+    margin-right: 20px;
+ }
+.brand-logo{
+    height: 80px;
+}
+.brand-logo img{
+    height: 100%;
+    width: auto;
 }
 
 /*NavBar horizontale*/
 #search input[type="text"] {
-    background: url(/frontend/assets/img/search-white.png) no-repeat 10px 6px #fcfcfc;
-    margin: 0px 0px 0px 30%;
+    margin: 0px 5% 0px 2%;
     height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -26,18 +38,22 @@
     -moz-transition: all 0.7s ease 0s;
     -o-transition: all 0.7s ease 0s;
     transition: all 0.7s ease 0s;
+    background-color: rgb(58,58,58);
 }
 
 #search input[type="text"]:focus {
-    width: 250px;
+    background-color: rgb(64,64,64);
     border-bottom: none;
 }
-
 /*Body Accueil*/
 .container {
     margin: 0px 0px 0px 30%;
 }
 
+.icon {
+    width: 30px;
+    height: auto;
+}
 /*Footer*/
 footer a {
     color: black;
@@ -46,4 +62,101 @@ footer a {
 
 .collection {
     margin: 0px 0px 0px 30%;
+}
+.side-nav{
+
+    color: white !important;
+}
+.side-nav.fixed{
+
+    right: 0 !important;
+    left: auto !important;
+    background-color: rgb(36,36,36);
+    box-shadow: none;
+    text-align: center;
+    width: 250px;
+}
+@media screen and (max-width: 992px) {
+    .side-nav.fixed {
+        -webkit-transform: translateX(+105%);
+        transform: translateX(+105%);
+    }
+
+    .nav-wrapper ul{
+        margin-right: 0 !important;
+    }
+}
+.side-nav li > a{
+    color: white !important;
+}
+.nav-wrapper li{
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+}
+.nav-wrapper ul{
+    margin-right: 250px;
+}
+.side-nav .divider{
+    margin: 50px 50px 50px 50px;
+}
+.heightexpandable{
+    overflow: hidden;
+    -webkit-transition: height 0.9s ease;
+    -moz-transition: height 0.9s ease;
+    -ms-transition: height 0.9s ease;
+    -o-transition: height 0.9s ease;
+    transition: height 0.9s ease;
+}
+.nav-wrapper li.heightexpandable:hover{
+    height: 145px;
+
+}
+.nav-wrapper{
+    background-color: rgb(42,42,42);
+}
+nav {
+    box-shadow: none;
+}
+.brand-logo{
+    margin:20px;
+}
+#profile{
+    margin-top: 50px;
+}
+.content{
+    margin-right: 250px;
+    margin-top: 100px
+}
+.titleplaylist{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.taglist li {
+    display: inline;
+    list-style: none; /* pour enlever les puces sur IE7 */
+    margin: 10px;
+    border: solid 1px rgb(4,139,154);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.titlemusic{
+    margin-top: 25px;
+    color: white;
+
+}
+.tableplaylist th{
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: solid rgb(4,136,154) 1px;
+    text-align: center;
+}
+.tableplaylist td{
+    color:white;
+    text-align: center;
 }
