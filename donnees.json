@@ -1,0 +1,1162 @@
+[
+    {
+        "id": 2,
+        "nom": "Regis Roberrrrrrrr",
+        "datetime": "2017-06-29T11:49:30+02:00",
+        "public": true,
+        "vote": 0,
+        "shares": [
+            {
+                "id": 14,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "tag": "pop",
+                "playlists": [
+                    {
+                        "id": 1,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 1,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 2,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 3,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 4,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 5,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 6,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 7,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 8,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 9,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 10,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 11,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 12,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 13,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 2,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 3,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 4,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 5,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 6,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 7,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 8,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 9,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 10,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 11,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 12,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 13,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 14,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 15,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 16,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 17,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 18,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 19,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 20,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 21,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 22,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 23,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 24,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 25,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 26,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 27,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 28,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 29,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 30,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 31,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 32,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 33,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 34,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 35,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 36,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 37,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 38,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 39,
+                                "tag": "couille",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 1,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "tag": "rock",
+                "playlists": [
+                    {
+                        "id": 1,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 1,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 2,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 3,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 4,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 5,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 6,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 7,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 8,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 9,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 10,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 11,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 12,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 13,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 1,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 3,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 4,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 5,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 6,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 7,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 8,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 9,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 10,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 11,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 12,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 13,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 14,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 15,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 16,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 17,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 18,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 19,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 20,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 21,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 22,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 23,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 24,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 25,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 26,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 27,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 28,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 29,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 30,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 31,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 32,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 33,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 34,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 35,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 36,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 37,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 38,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 39,
+                                "tag": "couille",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 1,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "tag": "couille",
+                "playlists": [
+                    {
+                        "id": 1,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 1,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 2,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 3,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 4,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 5,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 6,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 7,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 8,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 9,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 10,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 11,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 12,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            },
+                            {
+                                "id": 13,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 1,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 2,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 4,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 5,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 6,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 7,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 8,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 9,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 10,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 11,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 12,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 13,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 14,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 15,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 16,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 17,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 18,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 19,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 20,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 21,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 22,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 23,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 24,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 25,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 26,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 27,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 28,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 29,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 30,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 31,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 32,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 33,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 34,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 35,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 36,
+                                "tag": "couille",
+                                "playlists": []
+                            },
+                            {
+                                "id": 37,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 38,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 39,
+                                "tag": "couille",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 1,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            }
+        ],
+        "creator": {
+            "id": 2,
+            "username": "admin"
+        }
+    },
+    {
+        "id": 1,
+        "nom": "Regis Roberrrrrrrr",
+        "datetime": "2017-06-29T11:49:30+02:00",
+        "public": true,
+        "vote": 0,
+        "shares": [
+            {
+                "id": 1,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 2,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 3,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 4,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 5,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 6,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 7,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 8,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 9,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 10,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 11,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 12,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            },
+            {
+                "id": 13,
+                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "tag": "pop",
+                "playlists": [
+                    {
+                        "id": 2,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 14,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 2,
+                                "tag": "rock",
+                                "playlists": []
+                            },
+                            {
+                                "id": 3,
+                                "tag": "couille",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 2,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "tag": "rock",
+                "playlists": [
+                    {
+                        "id": 2,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 14,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 1,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 3,
+                                "tag": "couille",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 2,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "tag": "couille",
+                "playlists": [
+                    {
+                        "id": 2,
+                        "nom": "Regis Roberrrrrrrr",
+                        "datetime": "2017-06-29T11:49:30+02:00",
+                        "public": true,
+                        "vote": 0,
+                        "shares": [
+                            {
+                                "id": 14,
+                                "url": "https:\/\/www.youtube.com\/watch?v=9VeyfvJ3iZs"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": 1,
+                                "tag": "pop",
+                                "playlists": []
+                            },
+                            {
+                                "id": 2,
+                                "tag": "rock",
+                                "playlists": []
+                            }
+                        ],
+                        "creator": {
+                            "id": 2,
+                            "username": "admin"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 5,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 6,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 7,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 8,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 9,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 10,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 11,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 12,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 13,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 14,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 15,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 16,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 17,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 18,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 19,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 20,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 21,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 22,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 23,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 24,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 25,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 26,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 27,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 28,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 29,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 30,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 31,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 32,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 33,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 34,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 35,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 36,
+                "tag": "couille",
+                "playlists": []
+            },
+            {
+                "id": 37,
+                "tag": "pop",
+                "playlists": []
+            },
+            {
+                "id": 38,
+                "tag": "rock",
+                "playlists": []
+            },
+            {
+                "id": 39,
+                "tag": "couille",
+                "playlists": []
+            }
+        ],
+        "creator": {
+            "id": 1,
+            "username": "admin"
+        }
+    }
+]
