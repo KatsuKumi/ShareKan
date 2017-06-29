@@ -46,12 +46,18 @@
           <th>Titre</th>
           <th>Nb</th>
           <th>Créateur</th>
+          <th>Tags</th>
           <th> </th>
         </tr>
         <tr ng-repeat="kanList in $ctrl.kanLists | filter:search">
           <td>{{kanList.nom}}</td>
           <td>{{kanList.urls.length}}</td>
           <td>{{kanList.creator.username}}</td>
+          <td>
+          <ul class="taglist">
+            <li ng-repeat="tag in kanList.tags">{{tag}}</li>
+          </ul>
+          </td>
           <td>
             <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="green material-icons">play_arrow</i></a>
           </td>

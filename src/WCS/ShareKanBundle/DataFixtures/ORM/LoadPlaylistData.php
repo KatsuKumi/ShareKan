@@ -24,10 +24,12 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
 
         $em = $manager;
         $jsondatas = [array(
-            "urls" => ["Unforgettable (Freestyle)" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
+            "urls" => [
+            "Ahrix, Nova" =>'https://soundcloud.com/ahrix/electro-house-ahrix-nova',
+            "Dream Of Something Sweet Ft. Cory Friesenha" => 'https://soundcloud.com/k-391/dream-of-something-sweet-ft'],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock"],
+            "tags" => ["electro", "pop"],
             "user" => "Alex"),
             array(
             "urls" => [
@@ -37,23 +39,23 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Heyzus(Feat. Ant Beale & Kur)" =>"https://soundcloud.com/goodworkcharlie/heyzusfeat-ant-beale-kur", 
             "20 Wake N Bake" =>"https://soundcloud.com/kodak-black/20-wake-n-bake",
             "Selena Gomez - Bad Liar" =>"https://www.youtube.com/watch?v=NZKXkD6EgBk&list=RDRsaK6p8HDnU&index=7",  
-            "Instruction par Jax Jones, Demi Lovato, Stefflon Don" =>"http://www.deezer.com/album/42891121?utm_source=deezer&utm_content=album-42891121&utm_term=485906_1498755873&utm_medium=web"
+            "One Day / Reckoning Song (Wankelmut Remix)" =>"http://www.deezer.com/track/35407931?utm_source=deezer&utm_content=track-35407931&utm_term=1457366862_1498773666&utm_medium=web"
             ],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock","couille"],
+            "tags" => ["pop","electro", "rock"],
             "user" => "Jean"),
             array(
-            "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
+            "urls" => ["Alone, Petit Biscuit" =>'http://www.deezer.com/track/126331805?utm_source=deezer&utm_content=track-126331805&utm_term=1457366862_1498775066&utm_medium=web'],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock","couille"],
+            "tags" => ["rock"],
             "user" => "Keeek"),
             array(
             "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock","couille"],
+            "tags" => ["rock"],
             "user" => "Pierreeee"),
             ];
 
