@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f2bb97ee-1c10-4581-8446-b210c5f9864f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" afterPath="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/frontend/services/kanInvitationService.js" afterPath="$PROJECT_DIR$/web/frontend/services/kanInvitationService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/frontend/services/kanList.js" afterPath="$PROJECT_DIR$/web/frontend/services/kanList.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +38,8 @@
       <file leaf-file-name="PlaylistController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+            <state relative-caret-position="197">
+              <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="e#49#106#0#PHP" expanded="true" />
               </folding>
@@ -46,13 +47,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadPlaylistData.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kanInvitationService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/services/kanInvitationService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kanList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/frontend/services/kanList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadPlaylistData.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+            <state relative-caret-position="1100">
+              <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <element signature="e#46#96#0#PHP" expanded="true" />
+                <marker date="1498773992004" expanded="true" signature="497:3458" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="694:3456" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="3346:3427" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,10 +85,18 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="295" column="56" lean-forward="false" selection-start-line="295" selection-start-column="56" selection-end-line="295" selection-end-column="57" />
+            <state relative-caret-position="5840">
+              <caret line="292" column="6" lean-forward="false" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
               <folding>
                 <element signature="e#45#77#0#PHP" expanded="true" />
+                <marker date="1498773736421" expanded="true" signature="385:5676" ph="{...}" />
+                <marker date="1498773736421" expanded="true" signature="1571:1608" ph=" @ORM\OneToMany(targetEntity=&quot;Share&quot;, mappedBy=&quot;creator&quot;) ..." />
+                <marker date="1498773736421" expanded="true" signature="4965:5085" ph=" Add playlist ..." />
+                <marker date="1498773736421" expanded="true" signature="5166:5241" ph="{...}" />
+                <marker date="1498773736421" expanded="true" signature="5250:5346" ph=" Remove playlist ..." />
+                <marker date="1498773736421" expanded="true" signature="5430:5494" ph="{...}" />
+                <marker date="1498773736421" expanded="true" signature="5503:5592" ph=" Get playlists ..." />
+                <marker date="1498773736421" expanded="true" signature="5629:5674" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -73,8 +105,8 @@
       <file leaf-file-name="FixtureInterface.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+            <state relative-caret-position="218">
+              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -90,54 +122,56 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="258">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Playlist.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/UserRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/frontend/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="134" column="23" lean-forward="false" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
               <folding>
-                <marker date="1498730699845" expanded="true" signature="583:993" ph="{&quot;version&quot;: &quot;0.11.1&quot;...}" />
+                <marker date="1498773992004" expanded="true" signature="275:281" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1214:1264" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1278:1310" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1320:1353" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1369:1526" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1564:1743" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1586:1677" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1698:1741" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1760:1792" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1808:1875" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1891:1919" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1938:1974" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="1992:2207" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2246:2269" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2282:2322" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2327:2352" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2364:2384" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2393:2418" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2427:2477" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2492:2583" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2596:2822" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2834:2878" ph="{...}" />
+                <marker date="1498773992004" expanded="true" signature="2896:3032" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,18 +180,18 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>border</find>
       <find>shares</find>
-      <find>share</find>
+      <find>nav-wrapper</find>
+      <find>.divider</find>
+      <find>titleplaylist</find>
     </findStrings>
-    <replaceStrings>
-      <replace>urls</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AlexVFront" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -169,19 +203,21 @@
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadUserData.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php" />
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php" />
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Services/JsonParse.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
         <option value="$PROJECT_DIR$/web/frontend/index.html" />
         <option value="$PROJECT_DIR$/web/frontend/assets/style.css" />
         <option value="$PROJECT_DIR$/web/frontend/components/main/main.html" />
-        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php" />
-        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/testRepository.php" />
-        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php" />
-        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php" />
+        <option value="$PROJECT_DIR$/web/frontend/services/kanInvitationService.js" />
+        <option value="$PROJECT_DIR$/web/frontend/services/kanList.js" />
       </list>
     </option>
   </component>
@@ -200,25 +236,6 @@
     <option name="y" value="-11" />
     <option name="width" value="1303" />
     <option name="height" value="780" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>MysqlParsingInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -320,28 +337,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -371,6 +366,10 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanProfile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -390,7 +389,81 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanlists" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanlist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -806,8 +879,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -906,8 +978,8 @@
       <option name="presentableId" value="Default" />
       <updated>1498672372934</updated>
       <workItem from="1498672374450" duration="10649000" />
-      <workItem from="1498692973013" duration="14407000" />
-      <workItem from="1498732209504" duration="1902000" />
+      <workItem from="1498692973013" duration="12955000" />
+      <workItem from="1498749337183" duration="1562000" />
     </task>
     <task id="LOCAL-00001" summary="Création du controlleur Playlist">
       <created>1498676905164</created>
@@ -944,47 +1016,51 @@
       <option name="project" value="LOCAL" />
       <updated>1498728978627</updated>
     </task>
-    <task id="LOCAL-00006" summary="Changement design">
-      <created>1498730474490</created>
+    <task id="LOCAL-00006" summary="Modification page">
+      <created>1498750681069</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1498730474490</updated>
+      <updated>1498750681069</updated>
     </task>
-    <task id="LOCAL-00007" summary="Changement retour json entités">
-      <created>1498734372382</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1498734372382</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26958000" />
+    <option name="totallyTimeSpent" value="38599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25258964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37131473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18565737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37131473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18565737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1019,53 +1095,52 @@
     <MESSAGE value="Modification du serializer" />
     <MESSAGE value="Ajout de plusieurs fixtures" />
     <MESSAGE value="Changement design" />
-    <MESSAGE value="Changement retour json entités" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changement retour json entités" />
+    <MESSAGE value="Modification page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1498730699845" expanded="true" signature="1911:1932" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/app.modules.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/userRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/tagRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/ShareRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#106#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        <state relative-caret-position="295">
+          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <element signature="e#46#96#0#PHP" expanded="true" />
+            <marker date="1498773992004" expanded="true" signature="497:3458" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="694:3456" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="3346:3427" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,26 +1160,15 @@
           <caret line="46" column="88" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="88" />
           <folding>
             <element signature="e#46#96#0#PHP" expanded="true" />
+            <marker date="1498773992004" expanded="true" signature="497:3458" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="694:3456" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="3346:3427" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php" />
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
@@ -1117,7 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,6 +1190,14 @@
           <caret line="80" column="58" lean-forward="false" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
           <folding>
             <element signature="e#45#77#0#PHP" expanded="true" />
+            <marker date="1498773736421" expanded="true" signature="385:5676" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="1571:1608" ph=" @ORM\OneToMany(targetEntity=&quot;Share&quot;, mappedBy=&quot;creator&quot;) ..." />
+            <marker date="1498773736421" expanded="true" signature="4965:5085" ph=" Add playlist ..." />
+            <marker date="1498773736421" expanded="true" signature="5166:5241" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="5250:5346" ph=" Remove playlist ..." />
+            <marker date="1498773736421" expanded="true" signature="5430:5494" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="5503:5592" ph=" Get playlists ..." />
+            <marker date="1498773736421" expanded="true" signature="5629:5674" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1149,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,11 +1265,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadUserData.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1230,6 +1305,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="16" column="106" lean-forward="false" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="164" column="25" lean-forward="false" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,9 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="e#47#113#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,22 +1337,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php" />
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1287,114 +1353,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/index.html">
+    <entry file="file://$PROJECT_DIR$/web/frontend/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1498730699845" expanded="true" signature="1911:1932" ph="..." />
+            <marker date="1498773992004" expanded="true" signature="1193:1201" ph="{&quot;version&quot;: &quot;0.11.1&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="1100">
+          <caret line="62" column="36" lean-forward="false" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <folding>
+            <element signature="e#46#96#0#PHP" expanded="true" />
+            <marker date="1498773992004" expanded="true" signature="497:3458" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="694:3456" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="3346:3427" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/app.modules.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/test.php" />
-    <entry file="file://$PROJECT_DIR$/web/frontend/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1498730699845" expanded="true" signature="583:993" ph="{&quot;version&quot;: &quot;0.11.1&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="295" column="56" lean-forward="false" selection-start-line="295" selection-start-column="56" selection-end-line="295" selection-end-column="57" />
-          <folding>
-            <element signature="e#45#77#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/testRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/userRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/tagRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/ShareRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1406,31 +1398,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5840">
+          <caret line="292" column="6" lean-forward="false" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
+            <marker date="1498773736421" expanded="true" signature="385:5676" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="1571:1608" ph=" @ORM\OneToMany(targetEntity=&quot;Share&quot;, mappedBy=&quot;creator&quot;) ..." />
+            <marker date="1498773736421" expanded="true" signature="4965:5085" ph=" Add playlist ..." />
+            <marker date="1498773736421" expanded="true" signature="5166:5241" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="5250:5346" ph=" Remove playlist ..." />
+            <marker date="1498773736421" expanded="true" signature="5430:5494" ph="{...}" />
+            <marker date="1498773736421" expanded="true" signature="5503:5592" ph=" Get playlists ..." />
+            <marker date="1498773736421" expanded="true" signature="5629:5674" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="134" column="23" lean-forward="false" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+          <folding>
+            <marker date="1498773992004" expanded="true" signature="275:281" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1214:1264" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1278:1310" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1320:1353" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1369:1526" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1564:1743" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1586:1677" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1698:1741" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1760:1792" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1808:1875" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1891:1919" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1938:1974" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="1992:2207" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2246:2269" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2282:2322" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2327:2352" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2364:2384" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2393:2418" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2427:2477" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2492:2583" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2596:2822" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2834:2878" ph="{...}" />
+            <marker date="1498773992004" expanded="true" signature="2896:3032" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+        <state relative-caret-position="197">
+          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           <folding>
             <element signature="e#49#106#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+    <entry file="file://$PROJECT_DIR$/web/frontend/services/kanInvitationService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+        <state relative-caret-position="260">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
+    <entry file="file://$PROJECT_DIR$/web/frontend/services/kanList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
-          <folding>
-            <element signature="e#46#96#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-120">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
