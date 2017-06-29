@@ -78,11 +78,13 @@ class User implements UserInterface
 
     /**
      * @ORM\OneToMany(targetEntity="Share", mappedBy="creator")
+     * @JMSSerializer\Exclude
      */
     private $shares;
 
     /**
      * @ORM\OneToMany(targetEntity="Playlist", mappedBy="creator")
+     * @JMSSerializer\Exclude
      */
     private $playlists;
 

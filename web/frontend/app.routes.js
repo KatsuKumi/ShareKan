@@ -7,11 +7,12 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             name: 'kanList',
             url: '/kanList',
             component: 'kanList',
-            resolve: {
-                kanList: function (kanListService) {
-                    return kanListService.getKanListP();
-                }
-            }
+            // resolve: {
+            //     kanList: function (kanListService) {
+            //         kanListService.getKanListP();
+
+            //     }
+            // }
         })
 
         .state({

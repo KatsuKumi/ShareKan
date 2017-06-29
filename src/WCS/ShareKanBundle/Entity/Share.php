@@ -3,12 +3,14 @@
 namespace WCS\ShareKanBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use JMS\Serializer\Annotation as JMSSerializer;
 
 /**
  * Share
  *
  * @ORM\Table(name="share")
  * @ORM\Entity(repositoryClass="WCS\ShareKanBundle\Repository\ShareRepository")
+ * @JMSSerializer\ExclusionPolicy("none")
  */
 class Share
 {
@@ -30,11 +32,13 @@ class Share
 
     /**
      * @ORM\ManyToOne(targetEntity="Playlist", inversedBy="shares")
+     * @JMSSerializer\Exclude
      */
     private $playlist;
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="shares")
+     * @JMSSerializer\Exclude
      */
     private $creator;
 
