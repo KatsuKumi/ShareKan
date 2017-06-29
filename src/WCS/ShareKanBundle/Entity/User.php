@@ -4,12 +4,14 @@ namespace WCS\ShareKanBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
+use JMS\Serializer\Annotation as JMSSerializer;
 
 /**
  * user
  *
  * @ORM\Table(name="user")
  * @ORM\Entity(repositoryClass="WCS\ShareKanBundle\Repository\userRepository")
+ * @JMSSerializer\ExclusionPolicy("none")
  */
 class User implements UserInterface
 {
@@ -33,6 +35,7 @@ class User implements UserInterface
      * @var string
      *
      * @ORM\Column(name="password", type="string", length=255)
+     * @JMSSerializer\Exclude
      */
     private $password;
 
@@ -40,6 +43,7 @@ class User implements UserInterface
      * @var string
      *
      * @ORM\Column(name="email", type="string", length=255)
+     * @JMSSerializer\Exclude
      */
     private $email;
 

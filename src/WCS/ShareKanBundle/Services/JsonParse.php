@@ -2,6 +2,7 @@
 
 namespace WCS\ShareKanBundle\Services;
 
+use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
@@ -12,20 +13,22 @@ use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
  * Date: 29/06/17
  * Time: 07:26
  */
-class JsonParse
+use Symfony\Component\DependencyInjection\ContainerInterface;
+
+class JsonParse implements ContainerAwareInterface
 {
+    /**
+     * @var ContainerInterface
+     */
+    private $_container;
+    public function setContainer(ContainerInterface $container = null)
+    {
+        $this->_container = $container;
+    }
+
   public function ToJson($data){
 
-      $encoders = array(new XmlEncoder(), new JsonEncoder());
-      $normalizer = new ObjectNormalizer();
-
-      $normalizer->setCircularReferenceLimit(1);
-      $normalizer->setCircularReferenceHandler(function ($object) {
-          return $object->getID();
-      });
-      $normalizers = array($normalizer);
-      $serializer = new Serializer($normalizers, $encoders);
-      $data['creator'];
+      $serializer = $this->_container->get('jms_serializer');
       return $serializer->serialize($data, 'json');
   }
 }

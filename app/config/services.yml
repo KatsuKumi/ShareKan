@@ -28,4 +28,3 @@ services:
         tags:
             - { name: kernel.event_listener, event: kernel.request, priority: 10 }
 
-    jms_serializer: ~

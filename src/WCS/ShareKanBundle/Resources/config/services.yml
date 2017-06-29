@@ -1,3 +1,5 @@
 services:
     jsonparse:
         class: WCS\ShareKanBundle\Services\JsonParse
+        calls:
+            - [ setContainer, [ '@service_container' ]]
