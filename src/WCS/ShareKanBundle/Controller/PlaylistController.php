@@ -138,7 +138,6 @@ class PlaylistController extends Controller
             $playlists = $em->getRepository('WCSShareKanBundle:Playlist')->findBy(array(), array('id' => 'DESC'));
             $jsonContent = $this->container->get('jsonparse')->toJson($playlists);
 
-
             return new Response($jsonContent);
     }
 }

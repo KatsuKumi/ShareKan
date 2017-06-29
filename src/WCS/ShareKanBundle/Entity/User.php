@@ -77,12 +77,6 @@ class User implements UserInterface
 
 
     /**
-     * @ORM\OneToMany(targetEntity="Share", mappedBy="creator")
-     * @JMSSerializer\Exclude
-     */
-    private $shares;
-
-    /**
      * @ORM\OneToMany(targetEntity="Playlist", mappedBy="creator")
      * @JMSSerializer\Exclude
      */
@@ -287,43 +281,10 @@ class User implements UserInterface
      */
     public function __construct()
     {
-        $this->shares = new \Doctrine\Common\Collections\ArrayCollection();
         $this->playlists = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
-    /**
-     * Add share
-     *
-     * @param \WCS\ShareKanBundle\Entity\Share $share
-     *
-     * @return User
-     */
-    public function addShare(\WCS\ShareKanBundle\Entity\Share $share)
-    {
-        $this->shares[] = $share;
 
-        return $this;
-    }
-
-    /**
-     * Remove share
-     *
-     * @param \WCS\ShareKanBundle\Entity\Share $share
-     */
-    public function removeShare(\WCS\ShareKanBundle\Entity\Share $share)
-    {
-        $this->shares->removeElement($share);
-    }
-
-    /**
-     * Get shares
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getShares()
-    {
-        return $this->shares;
-    }
 
     /**
      * Add playlist

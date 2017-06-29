@@ -50,12 +50,16 @@ class Playlist
     private $vote;
 
     /**
-     * @ORM\OneToMany(targetEntity="Share", mappedBy="playlist", cascade={"remove"})
+     * @var array
+     *
+     * @ORM\Column(name="urls", type="array")
      */
-    private $shares;
+    private $urls;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Tag", mappedBy="playlists")
+     * @var array
+     *
+     * @ORM\Column(name="tags", type="array")
      */
     private $tags;
 
@@ -151,78 +155,8 @@ class Playlist
      */
     public function __construct()
     {
-        $this->shares = new \Doctrine\Common\Collections\ArrayCollection();
         $this->tags = new \Doctrine\Common\Collections\ArrayCollection();
     }
-
-    /**
-     * Add share
-     *
-     * @param \WCS\ShareKanBundle\Entity\Share $share
-     *
-     * @return Playlist
-     */
-    public function addShare(\WCS\ShareKanBundle\Entity\Share $share)
-    {
-        $this->shares[] = $share;
-
-        return $this;
-    }
-
-    /**
-     * Remove share
-     *
-     * @param \WCS\ShareKanBundle\Entity\Share $share
-     */
-    public function removeShare(\WCS\ShareKanBundle\Entity\Share $share)
-    {
-        $this->shares->removeElement($share);
-    }
-
-    /**
-     * Get shares
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getShares()
-    {
-        return $this->shares;
-    }
-
-    /**
-     * Add tag
-     *
-     * @param \WCS\ShareKanBundle\Entity\Tag $tag
-     *
-     * @return Playlist
-     */
-    public function addTag(\WCS\ShareKanBundle\Entity\Tag $tag)
-    {
-        $this->tags[] = $tag;
-
-        return $this;
-    }
-
-    /**
-     * Remove tag
-     *
-     * @param \WCS\ShareKanBundle\Entity\Tag $tag
-     */
-    public function removeTag(\WCS\ShareKanBundle\Entity\Tag $tag)
-    {
-        $this->tags->removeElement($tag);
-    }
-
-    /**
-     * Get tags
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getTags()
-    {
-        return $this->tags;
-    }
-
     /**
      * Set creator
      *
@@ -269,5 +203,53 @@ class Playlist
     public function getNom()
     {
         return $this->nom;
+    }
+
+    /**
+     * Set urls
+     *
+     * @param array $urls
+     *
+     * @return Playlist
+     */
+    public function setUrls($urls)
+    {
+        $this->urls = $urls;
+
+        return $this;
+    }
+
+    /**
+     * Get urls
+     *
+     * @return array
+     */
+    public function getUrls()
+    {
+        return $this->urls;
+    }
+
+    /**
+     * Set tags
+     *
+     * @param array $tags
+     *
+     * @return Playlist
+     */
+    public function setTags($tags)
+    {
+        $this->tags = $tags;
+
+        return $this;
+    }
+
+    /**
+     * Get tags
+     *
+     * @return array
+     */
+    public function getTags()
+    {
+        return $this->tags;
     }
 }
