@@ -1,6 +1,6 @@
 <!--Barres de Nav-->
-    <div class="navbar-fixed">
-        <nav class="#e0e0e0 grey lighten-2">
+<!--    <div class="navbar-fixed">
+        <nav>
             <div class="nav-wrapper container">
                 <form ng-submit="$ctrl.getSearchQuestions()" id="search">
                     <input type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
@@ -8,43 +8,37 @@
                 </form>
             </div>
         </nav>
-    </div>
+    </div>-->
 
+<script type="text/javascript" src="/soundcloud.player.api.js"></script>
+<script type="text/javascript">
+    soundcloud.addEventListener('onPlayerReady', function(player, data) {
+        player.api_play();
+    });
+</script>
 <div>
-    <ul id="slide-out" class="side-nav fixed #e0e0e0 grey lighten-2">
-        <li>
-            <div class="user-view">
-                <div class="background">
-                    <img src="images/office.jpg">
-                </div>
-                <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-                <a href="#!name"><span class="white-text name">John Doe</span></a>
-                <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-            </div>
-        </li>
-        <li><a ui-sref="kanProfile"><i class="material-icons">face</i>My KanProfile</a></li>
-        <li><a class="waves-effect">My KanLists</a></li>
-        <li>
-            <div class="divider"></div>
-        </li>
-        <li><a class="waves-effect" ui-sref="kanLists">KanList of the Day</a></li>
-    </ul>
-    <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+    <nav>
+        <div class="nav-wrapper fixed">
+            <a ui-sref="kanLists" class="brand-logo"><img src="/logo.png "></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="heightexpandable"><a ui-sref="kanProfile"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+                <li class="heightexpandable"><a ui-sref="kanLists"><i class="material-icons">queue_music</i>KanLists</a></li>
+                <li class="heightexpandable"><a href="collapsible.html"><i class="material-icons">email</i>Invitations</a></li>
+            </ul>
+            <ul class="right">
+                <li>
 
-    <script>
-        // Initialize collapse button
-        $(".button-collapse").sideNav();
-        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-        $('.collapsible').collapsible();
-    </script>
-    <script>
-        $('.button-collapse').sideNav({
-            menuWidth: 300, // Default is 300
-            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-            draggable: true, // Choose whether you can drag to open on touch screens,
-        });
-    </script>
+                    <a class="hide-on-large-only">
+
+                        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
 
-    <ui-view></ui-view>
+
+<ui-view></ui-view>
 

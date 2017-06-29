@@ -12,16 +12,17 @@ COMPNT
 
       this.getAllKanLists = () => {
 
-        this.kanLists = [];
 
         kanListService.getKanList().then((items) => {
+<<<<<<< HEAD
+=======
+          this.kanLists = [];
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           this.kanListArray = (items);
-          for (let i = 0; i < this.kanListArray.length; i++) {
-            for (let j = 0; j < this.kanListArray[i].shares.length; j++) {
-              this.kanLists.push(this.kanListArray[i].shares[j]);
-              console.log(this.kanLists);
-            }
+          for (let i = 0; i < 5 ; i++) {
+            this.kanLists.push(this.kanListArray[i].urls[0]);
           }
+          console.log(this.kanLists);
         }).catch((err) => { });
       }
     }]

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f2bb97ee-1c10-4581-8446-b210c5f9864f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" afterPath="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
+=======
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +40,13 @@
       <file leaf-file-name="PlaylistController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="517">
               <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+=======
+            <state relative-caret-position="337">
+              <caret line="142" column="5" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <folding>
                 <element signature="e#49#106#0#PHP" expanded="true" />
               </folding>
@@ -46,6 +54,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="LoadPlaylistData.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,6 +62,16 @@
               <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
               <folding>
                 <element signature="e#46#96#0#PHP" expanded="true" />
+=======
+      <file leaf-file-name="LoadPlaylistData.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1780">
+              <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+              <folding>
+                <element signature="e#46#96#0#PHP" expanded="true" />
+                <marker date="1498738620624" expanded="true" signature="4476:4557" ph="..." />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               </folding>
             </state>
           </provider>
@@ -61,8 +80,13 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="195">
               <caret line="295" column="56" lean-forward="false" selection-start-line="295" selection-start-column="56" selection-end-line="295" selection-end-column="57" />
+=======
+            <state relative-caret-position="6540">
+              <caret line="329" column="6" lean-forward="false" selection-start-line="329" selection-start-column="6" selection-end-line="329" selection-end-column="6" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <folding>
                 <element signature="e#45#77#0#PHP" expanded="true" />
               </folding>
@@ -73,7 +97,11 @@
       <file leaf-file-name="FixtureInterface.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="260">
+=======
+            <state relative-caret-position="380">
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
@@ -90,31 +118,58 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="580">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+=======
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/views/Default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Playlist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
               <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
               <folding />
+=======
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="UserRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/UserRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <folding />
             </state>
           </provider>
@@ -132,6 +187,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,22 +198,37 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>shares</find>
       <find>share</find>
     </findStrings>
     <replaceStrings>
       <replace>urls</replace>
     </replaceStrings>
+=======
+      <find>border</find>
+      <find>shares</find>
+      <find>nav-wrapper</find>
+      <find>.divider</find>
+      <find>titleplaylist</find>
+    </findStrings>
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="AlexVFront" />
+=======
+        <entry key="$PROJECT_DIR$" value="master" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
       </map>
     </option>
   </component>
@@ -169,6 +240,11 @@
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadUserData.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php" />
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
@@ -179,9 +255,16 @@
         <option value="$PROJECT_DIR$/web/frontend/components/main/main.html" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/testRepository.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php" />
         <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
+=======
+        <option value="$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php" />
+        <option value="$PROJECT_DIR$/web/frontend/index.html" />
+        <option value="$PROJECT_DIR$/web/frontend/assets/style.css" />
+        <option value="$PROJECT_DIR$/web/frontend/components/main/main.html" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
       </list>
     </option>
   </component>
@@ -298,55 +381,45 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShareKan" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
+=======
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="node_modules" />
+=======
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanProfile" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,6 +444,14 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="main" />
+=======
+              <option name="myItemId" value="kanlists" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -390,7 +471,40 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kanlist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareKan" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="backend" />
+=======
+              <option name="myItemId" value="assets" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -906,8 +1020,13 @@
       <option name="presentableId" value="Default" />
       <updated>1498672372934</updated>
       <workItem from="1498672374450" duration="10649000" />
+<<<<<<< HEAD
       <workItem from="1498692973013" duration="14407000" />
       <workItem from="1498732209504" duration="1902000" />
+=======
+      <workItem from="1498692973013" duration="12955000" />
+      <workItem from="1498749337183" duration="1562000" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
     </task>
     <task id="LOCAL-00001" summary="Création du controlleur Playlist">
       <created>1498676905164</created>
@@ -944,6 +1063,7 @@
       <option name="project" value="LOCAL" />
       <updated>1498728978627</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00006" summary="Changement design">
       <created>1498730474490</created>
       <option name="number" value="00006" />
@@ -963,18 +1083,40 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="26958000" />
+=======
+    <task id="LOCAL-00006" summary="Modification page">
+      <created>1498750681069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1498750681069</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37347000" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25258964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37131473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.50278884" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18565737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1019,41 +1161,46 @@
     <MESSAGE value="Modification du serializer" />
     <MESSAGE value="Ajout de plusieurs fixtures" />
     <MESSAGE value="Changement design" />
+<<<<<<< HEAD
     <MESSAGE value="Changement retour json entités" />
     <option name="LAST_COMMIT_MESSAGE" value="Changement retour json entités" />
+=======
+    <MESSAGE value="Modification page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification page" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/web/frontend/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <marker date="1498730699845" expanded="true" signature="1911:1932" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="295" column="56" lean-forward="false" selection-start-line="295" selection-start-column="56" selection-end-line="295" selection-end-column="57" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/web/frontend/app.modules.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/testRepository.php" />
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1061,14 +1208,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/userRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1340">
-          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/tagRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/DefaultController.php">
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/ShareRepository.php">
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="94" column="36" lean-forward="true" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
+          <folding>
+            <element signature="e#46#96#0#PHP" expanded="true" />
+            <marker date="1498738620624" expanded="true" signature="4476:4557" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1085,6 +1299,10 @@
           <caret line="46" column="88" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="88" />
           <folding>
             <element signature="e#46#96#0#PHP" expanded="true" />
+<<<<<<< HEAD
+=======
+            <marker date="1498738620624" expanded="true" signature="4476:4557" ph="..." />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           </folding>
         </state>
       </provider>
@@ -1117,7 +1335,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,6 +1409,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1200,6 +1418,8 @@
         <state relative-caret-position="300">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
+=======
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         </state>
       </provider>
     </entry>
@@ -1218,6 +1438,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1310,11 +1531,18 @@
         <state relative-caret-position="120">
           <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadUserData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="580">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
@@ -1337,6 +1565,10 @@
           <folding>
             <marker date="1498730699845" expanded="true" signature="583:993" ph="{&quot;version&quot;: &quot;0.11.1&quot;...}" />
           </folding>
+=======
+        <state relative-caret-position="366">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         </state>
       </provider>
     </entry>
@@ -1368,33 +1600,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/userRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="260">
+          <caret line="16" column="106" lean-forward="false" selection-start-line="16" selection-start-column="106" selection-end-line="16" selection-end-column="106" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/tagRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="255">
+          <caret line="164" column="25" lean-forward="false" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Repository/ShareRepository.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="130">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="260">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+=======
+        <state relative-caret-position="37">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="50" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Tests/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="237">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Share.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="517">
+          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#106#0#PHP" expanded="true" />
+=======
+        <state relative-caret-position="80">
+          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="1780">
+          <caret line="96" column="36" lean-forward="false" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+          <folding>
+            <element signature="e#46#96#0#PHP" expanded="true" />
+            <marker date="1498738620624" expanded="true" signature="4476:4557" ph="..." />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/web/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/app.modules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1406,30 +1746,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
+    <entry file="file://$PROJECT_DIR$/web/frontend/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-          <folding>
-            <element signature="e#49#106#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Entity/Playlist.php">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/data-fixtures/lib/Doctrine/Common/DataFixtures/FixtureInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+        <state relative-caret-position="380">
+          <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/DataFixtures/ORM/LoadPlaylistData.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="177">
           <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+=======
+        <state relative-caret-position="6540">
+          <caret line="329" column="6" lean-forward="false" selection-start-line="329" selection-start-column="6" selection-end-line="329" selection-end-column="6" />
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
           <folding>
             <element signature="e#46#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WCS/ShareKanBundle/Controller/PlaylistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="142" column="5" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/assets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="131" column="23" lean-forward="false" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/frontend/components/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

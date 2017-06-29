@@ -22,19 +22,9 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
     public function load(ObjectManager $manager)
     {
 
-        $user = new User();
-        $user->setUsername('admin');
-        $user->setEmail('admin@kek.fr');
-        $user->setPassword('test');
-        $encoder = $this->container->get('security.password_encoder');
-
-        $password = $encoder->encodePassword($user, "test");
-        $user->setPassword($password);
-
-        // 4) save the User!
-        $manager->persist($user);
         $em = $manager;
         $jsondatas = [array(
+<<<<<<< HEAD
             "urls" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
             "user"=>1,
             "public" => true,
@@ -84,15 +74,58 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "public" => true,
             "tags" => ["pop","rock","couille"]),array(
             "urls" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+=======
+            "urls" => ["Unforgettable (Freestyle)" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock","couille"]),
+            "tags" => ["pop","rock"],
+            "user" => "Alex"),
+            array(
+            "urls" => [
+            "Nicky Stix - Go For It" =>"https://soundcloud.com/dwyer018/nicky-stix-go-for-it",
+            "Katy Perry - Roulette" =>"https://www.youtube.com/watch?v=RsaK6p8HDnU&list=RDMM",
+            "Symphony (feat. Zara Larsson)" =>"http://www.deezer.com/track/144393668?utm_source=deezer&utm_content=track-144393668&utm_term=485906_1498755848&utm_medium=web",
+            "Heyzus(Feat. Ant Beale & Kur)" =>"https://soundcloud.com/goodworkcharlie/heyzusfeat-ant-beale-kur", 
+            "20 Wake N Bake" =>"https://soundcloud.com/kodak-black/20-wake-n-bake",
+            "Selena Gomez - Bad Liar" =>"https://www.youtube.com/watch?v=NZKXkD6EgBk&list=RDRsaK6p8HDnU&index=7",  
+            "Instruction par Jax Jones, Demi Lovato, Stefflon Don" =>"http://www.deezer.com/album/42891121?utm_source=deezer&utm_content=album-42891121&utm_term=485906_1498755873&utm_medium=web"
+            ],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"],
+            "user" => "Jean"),
+            array(
+            "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"],
+            "user" => "Keeek"),
+            array(
+            "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"],
+            "user" => "Pierreeee"),
+            ];
 
-        ];
         foreach ($jsondatas as $jsondata){
             $playlist = new Playlist();
+<<<<<<< HEAD
             $playlist->setNom('Regis Roberrrrrrrr');
             $playlist->setUrls($jsondata["urls"]);
+=======
+            $playlist->setNom('Regis kkj');
+            $playlist->setUrls($jsondata["urls"]);
+            $user = new User();
+            $user->setUsername($jsondata["user"]);
+            $user->setEmail('admin@kek.fr');
+            $user->setPassword('test');
+            $encoder = $this->container->get('security.password_encoder');
+            $password = $encoder->encodePassword($user, "test");
+            $user->setPassword($password);
+            $manager->persist($user);
+>>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
             $playlist->setCreator($user);
             $playlist->setDatetime(new \DateTime());
             $playlist->setPublic($jsondata["public"]);

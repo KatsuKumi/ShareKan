@@ -38,6 +38,6 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             }
         })
 
-    $urlRouterProvider.otherwise('/kanList');
+    $urlRouterProvider.otherwise('/kanLists');
 
 });
