@@ -36,36 +36,87 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
         $em = $manager;
         $playlist = new Playlist();
         $playlist->setNom('Regis Roberrrrrrrr');
-        $jsondata = array(
+        $jsondatas = [array(
             "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
             "user"=>1,
             "public" => true,
-            "tags" => ["pop","rock","couille"]
-        );
-        foreach($jsondata["shares"] as $shareurl){
-            $share = new Share();
-            $share->setUrl($shareurl);
-            $share->setPlaylist($playlist);
-            $playlist->addShare($share);
-            $em->persist($share);
-        }
-        $playlist->setCreator($user);
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),array(
+            "shares" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
+            "user"=>1,
+            "public" => true,
+            "tags" => ["pop","rock","couille"]),
 
-        $playlist->setDatetime(new \DateTime());
-        $playlist->setPublic($jsondata["public"]);
-
-        foreach($jsondata["tags"] as $tagsname){
-            $tag = $em->getRepository('WCSShareKanBundle:Tag')->findOneByTag($tagsname);
-            if ($tag === null){
-                $tag = new Tag();
-                $tag->setTag($tagsname);
-                $em->persist($tag);
+        ];
+        foreach ($jsondatas as $jsondata){
+            foreach($jsondata["shares"] as $shareurl){
+                $share = new Share();
+                $share->setUrl($shareurl);
+                $share->setPlaylist($playlist);
+                $playlist->addShare($share);
+                $em->persist($share);
             }
-            $tag->addPlaylist($playlist);
-            $playlist->addTag($tag);
+            $playlist->setCreator($user);
+
+            $playlist->setDatetime(new \DateTime());
+            $playlist->setPublic($jsondata["public"]);
+
+            foreach($jsondata["tags"] as $tagsname){
+                $tag = $em->getRepository('WCSShareKanBundle:Tag')->findOneByTag($tagsname);
+                if ($tag === null){
+                    $tag = new Tag();
+                    $tag->setTag($tagsname);
+                    $em->persist($tag);
+                }
+                $tag->addPlaylist($playlist);
+                $playlist->addTag($tag);
+            }
+            $playlist->setVote(0);
+            $em->persist($playlist);
         }
-        $playlist->setVote(0);
-        $em->persist($playlist);
         $em->flush();
         $this->load2($em);
     }
