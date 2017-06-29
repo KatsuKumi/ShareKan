@@ -11,53 +11,21 @@
     </div>-->
 
 <div>
-    <ul id="slide-out" class="side-nav fixed">
-        <li><a class="waves-effect row" ui-sref="kanProfile">
-            <div class="col m3">
-
-                <i class="material-icons">person_pin</i>
-
-            </div>
-            <div class="col m9">
-                My KanProfile
-            </div>
-        </a></li>
-        <li><a class="waves-effect row">
-            <div class="col m3">
-
-                <i class="material-icons">queue_music</i>
-
-            </div>
-            <div class="col m9">
-                My KanLists
-            </div>
-        </a></li>
-        <li><a class="waves-effect row" ui-sref="kanLists">
-            <div class="col m3">
-
-                <i class="material-icons">email</i>
-
-            </div>
-            <div class="col m9">
-                Invitations
-            </div>
-        </a></li>
-    </ul>
-    <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-
-    <script>
-        // Initialize collapse button
-        $(".button-collapse").sideNav();
-        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
-        $('.collapsible').collapsible();
-    </script>
-    <script>
-        $('.button-collapse').sideNav({
-            menuWidth: 300, // Default is 300
-            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-            draggable: true, // Choose whether you can drag to open on touch screens,
-        });
-    </script>
+    <nav>
+        <div class="nav-wrapper fixed">
+            <a href="#" class="brand-logo"><img src="/logo.png "></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="heightexpandable"><a href="sass.html"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+                <li class="heightexpandable"><a href="badges.html"><i class="material-icons">queue_music</i>My KanLists</a></li>
+                <li class="heightexpandable"><a href="collapsible.html"><i class="material-icons">email</i>Invitations</a></li>
+                <li>
+                    <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+                        <input type="text" placeholder="Search..." ng-model="$ctrl.searchQuery" />
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </div>
 
     <ui-view></ui-view>

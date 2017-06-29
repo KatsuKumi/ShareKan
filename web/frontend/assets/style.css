@@ -6,7 +6,7 @@ body{
 /*NavBar horizontale*/
 #search input[type="text"] {
     background: url(/frontend/assets/img/search-white.png) no-repeat 10px 6px #fcfcfc;
-    margin: 0px 0px 0px 30%;
+    margin: 0px 0px 0px 2%;
     height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -26,10 +26,11 @@ body{
     -moz-transition: all 0.7s ease 0s;
     -o-transition: all 0.7s ease 0s;
     transition: all 0.7s ease 0s;
+    background-color: rgb(58,58,58);
 }
 
 #search input[type="text"]:focus {
-    width: 250px;
+    background-color: rgb(64,64,64);
     border-bottom: none;
 }
 
@@ -58,4 +59,30 @@ footer a {
 }
 .side-nav li > a{
     color: white !important;
+}
+.nav-wrapper li{
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+}
+.heightexpandable{
+    overflow: hidden;
+    -webkit-transition: height 0.9s ease;
+    -moz-transition: height 0.9s ease;
+    -ms-transition: height 0.9s ease;
+    -o-transition: height 0.9s ease;
+    transition: height 0.9s ease;
+}
+.nav-wrapper li.heightexpandable:hover{
+    height: 145px;
+
+}
+.nav-wrapper{
+    background-color: rgb(36,36,36);
+}
+nav {
+    box-shadow: none;
+}
+.brand-logo{
+    margin:20px;
 }
