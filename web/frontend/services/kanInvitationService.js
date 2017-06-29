@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http, $log, $q) {
 
     this.getKanInvitationList = () => {
@@ -16,13 +14,24 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
             $log.debug(`Error: ${err}`);
             defer.reject(err);
         });
-
         return defer.promise;
     };
-
-    this.getKanAcceptedInvitation = (id) => {
+  
+    this.getKanAcceptedInvitation = (email) => {
     return $q((resolve, reject) => {
-      $http.get("http://localhost:3000/questions").then((response) => {
+      $http.get("http://localhost:3000/users?email=" + email).then((response) => {
+      //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
+        resolve(response.data);
+      })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  }
+
+  this.postInvitation = (newUser) => {
+    return $q((resolve, reject) => {
+      $http.post("http://localhost:3000/users" , newUser).then((response) => {
       //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
         resolve(response.data);
       })

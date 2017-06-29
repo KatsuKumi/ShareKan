@@ -53,3 +53,11 @@ footer a {
 .decale {
     margin-left:30%;
 }
+.accepted {
+    background-color: green;
+}
+.not-accepted {
+    background-color: red;
+}
+
+/* End of KanInvitation */

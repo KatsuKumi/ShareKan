@@ -7,16 +7,16 @@ COMPNT
 
     bindings: {
 
-      users: '<'
-
+      users: '<',
+      newUser: '<'
     },
 
     controller: ['kanInvitationService', '$log', function (kanInvitationService, $log) {
       this.$onInit = () => {
-        console.log(this.users);
-        
+        console.log(this.users); 
       }
-
-
+      this.sendInvit = (newUser) => {
+          return kanInvitationService.postInvitation(newUser);
+        }
     }]
   });
