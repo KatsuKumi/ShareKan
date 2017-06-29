@@ -12,12 +12,36 @@
 
 <div>
     <ul id="slide-out" class="side-nav fixed">
-        <li><a ui-sref="kanProfile"><i class="material-icons">face</i>My KanProfile</a></li>
-        <li><a class="waves-effect">My KanLists</a></li>
-        <li>
-            <div class="divider"></div>
-        </li>
-        <li><a class="waves-effect" ui-sref="kanLists">KanList of the Day</a></li>
+        <li><a class="waves-effect row" ui-sref="kanProfile">
+            <div class="col m3">
+
+                <i class="material-icons">person_pin</i>
+
+            </div>
+            <div class="col m9">
+                My KanProfile
+            </div>
+        </a></li>
+        <li><a class="waves-effect row">
+            <div class="col m3">
+
+                <i class="material-icons">queue_music</i>
+
+            </div>
+            <div class="col m9">
+                My KanLists
+            </div>
+        </a></li>
+        <li><a class="waves-effect row" ui-sref="kanLists">
+            <div class="col m3">
+
+                <i class="material-icons">email</i>
+
+            </div>
+            <div class="col m9">
+                Invitations
+            </div>
+        </a></li>
     </ul>
     <a data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
 
