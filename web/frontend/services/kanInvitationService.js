@@ -1,6 +1,6 @@
 'use strict';
 
-const KL = "http://localhost:3000/questions";
+
 
 SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http, $log, $q) {
 
@@ -8,7 +8,7 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
 
         var defer = $q.defer();
 
-        $http.get(KL).then((response) => {
+        $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all").then((response) => {
             defer.resolve(response.data);
         }).catch((err) => {
             $log.debug(`Error: ${err}`);

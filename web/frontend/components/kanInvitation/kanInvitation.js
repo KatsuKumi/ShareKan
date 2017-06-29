@@ -11,7 +11,7 @@ COMPNT
 
     controller: ['kanInvitationService', '$log', function (kanInvitationService, $log) {
       this.$onInit = () => {
-        this.getAllKanInvitation();
+        kanInvitationService.getKanInvitationList();
       }
 
       
