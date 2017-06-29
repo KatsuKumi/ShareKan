@@ -15,7 +15,6 @@ body{
     height: 100%;
     width: auto;
 }
-
 /*NavBar horizontale*/
 #search input[type="text"] {
     margin: 0px 5% 0px 2%;
@@ -174,3 +173,13 @@ nav {
 }
 
 /* End of KanInvitation */
+
+.divider{
+    margin-bottom: 20px;
+}
+form#search{;
+    margin-bottom: 20px;
+}
+.side-nav li a{
+    font-size: 12px;
+}

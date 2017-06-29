@@ -33,6 +33,7 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
     return $q((resolve, reject) => {
       $http.post("http://localhost:3000/users" , newUser).then((response) => {
       //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
+
         resolve(response.data);
       })
         .catch((err) => {
