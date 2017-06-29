@@ -18,18 +18,8 @@ COMPNT
         this.kanLists = [];
 
         kanListService.getKanList().then((items) => {
-<<<<<<< HEAD
-          this.kanListArray = (items);
-          for (let i = 0; i < this.kanListArray.length; i++) {
-            for (let j = 0; j < this.kanListArray[i].shares.length; j++) {
-              this.kanLists.push(this.kanListArray[i].shares[j]);
-              console.log(this.kanLists);
-            }
-          }
-=======
           this.kanLists = (items);
           console.log(this.kanLists);
->>>>>>> 8e5fdc080c988d2ac2f39274baa8258d09d38277
         }).catch((err) => { });
       }
 
