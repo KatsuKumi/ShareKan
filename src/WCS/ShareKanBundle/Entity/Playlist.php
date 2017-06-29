@@ -22,6 +22,13 @@ class Playlist
     private $id;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", length=255)
+     */
+    private $nom;
+
+    /**
      * @var \DateTime
      *
      * @ORM\Column(name="datetime", type="datetime")
@@ -43,17 +50,17 @@ class Playlist
     private $vote;
 
     /**
-     * @ORM\OneToMany(targetEntity="Share", mappedBy="Playlist", cascade={"remove"})
+     * @ORM\OneToMany(targetEntity="Share", mappedBy="playlist", cascade={"remove"})
      */
     private $shares;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Tag", mappedBy="Playlist")
+     * @ORM\ManyToMany(targetEntity="Tag", mappedBy="playlists")
      */
     private $tags;
 
     /**
-     * @ORM\ManyToOne(targetEntity="User", inversedBy="Playlists")
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="playlists")
      */
     private $creator;
 
@@ -238,5 +245,29 @@ class Playlist
     public function getCreator()
     {
         return $this->creator;
+    }
+
+    /**
+     * Set nom
+     *
+     * @param string $nom
+     *
+     * @return Playlist
+     */
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+
+        return $this;
+    }
+
+    /**
+     * Get nom
+     *
+     * @return string
+     */
+    public function getNom()
+    {
+        return $this->nom;
     }
 }

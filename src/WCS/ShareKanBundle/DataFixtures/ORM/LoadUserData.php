@@ -18,17 +18,11 @@ class LoadUserData implements FixtureInterface, ContainerAwareInterface
 
     public function load(ObjectManager $manager)
     {
-        $user = new User();
-        $user->setUsername('admin');
-        $user->setEmail('admin@kek.fr');
-        $user->setPassword('test');
-        $encoder = $this->container->get('security.password_encoder');
-
-        $password = $encoder->encodePassword($user, "test");
-        $user->setPassword($password);
-
-        // 4) save the User!
-        $manager->persist($user);
-        $manager->flush();
+    }
+    public function getOrder()
+    {
+        // the order in which fixtures will be loaded
+        // the lower the number, the sooner that this fixture is loaded
+        return 1;
     }
 }

@@ -20,5 +20,5 @@ api_playlist_get:
     defaults: { _controller: WCSShareKanBundle:Playlist:get }
 
 api_playlist_all:
-    path: /playlist/all
+    path: /playlist/get/all
     defaults: { _controller: WCSShareKanBundle:Playlist:getall }

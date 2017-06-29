@@ -30,7 +30,8 @@ class Tag
 
 
     /**
-     * @ORM\ManyToMany(targetEntity="Playlist", mappedBy="Tags")
+     * @ORM\ManyToMany(targetEntity="Playlist", inversedBy="tags")
+     * @ORM\JoinTable(name="tag_playlist")
      */
     private $playlists;
 

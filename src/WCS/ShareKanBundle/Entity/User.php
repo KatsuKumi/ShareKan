@@ -73,12 +73,12 @@ class User implements UserInterface
 
 
     /**
-     * @ORM\OneToMany(targetEntity="Share", mappedBy="Creator")
+     * @ORM\OneToMany(targetEntity="Share", mappedBy="creator")
      */
     private $shares;
 
     /**
-     * @ORM\OneToMany(targetEntity="Playlist", mappedBy="Creator")
+     * @ORM\OneToMany(targetEntity="Playlist", mappedBy="creator")
      */
     private $playlists;
 

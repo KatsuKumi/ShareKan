@@ -29,9 +29,14 @@ class Share
     private $url;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Playlist", inversedBy="Shares")
+     * @ORM\ManyToOne(targetEntity="Playlist", inversedBy="shares")
      */
     private $playlist;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="User", inversedBy="shares")
+     */
+    private $creator;
 
 
     /**
@@ -90,5 +95,29 @@ class Share
     public function getPlaylist()
     {
         return $this->playlist;
+    }
+
+    /**
+     * Set creator
+     *
+     * @param \WCS\ShareKanBundle\Entity\User $creator
+     *
+     * @return Share
+     */
+    public function setCreator(\WCS\ShareKanBundle\Entity\User $creator = null)
+    {
+        $this->creator = $creator;
+
+        return $this;
+    }
+
+    /**
+     * Get creator
+     *
+     * @return \WCS\ShareKanBundle\Entity\User
+     */
+    public function getCreator()
+    {
+        return $this->creator;
     }
 }
