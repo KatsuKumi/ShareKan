@@ -1,29 +1,30 @@
-<table>
-    <thead>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>email</th>
-            <th>date invitation</th>
-            <th>statut</th>
-        </tr>
-    </thead>
+<div class="decale">
+    <div class="formInvit">
+        <form name="invit">
+            <label for="recipient">Recipient</label>
+            <input ng-model="$ctrl.newUser.email" type="email" name="recipient" value="" placeholder="the recipient mail here" required>
+            <textarea ng-model="$ctrl.newUser.message" rows="4" cols="8" aria-placeholder="you can type an invit message if you want..."></textarea>
+            <button ng-click="$ctrl.sendInvit($ctrl.newUser)">Send your message</button> 
+        </form>
+    </div>
 
-    <tbody>
-        <tr ng-repeat="kanInvited in $ctrl.kanInvited">
-            <td>kanInvited.firstName</td>
-            <td>kanInvited.lastName</td>
-            <td>kanInvited.email</td>
-            <td>kanInvited.invitedDate</td>
-            <td>kanInvited.staus</td>
-        </tr>
-        <tr>
-            <td>Pierre</td>
-            <td>Etleloup</td>
-            <td>pierre@gmail.com</td>
-            <td>12/12/2012</td>
-            <td>12/12/2012</td>
-        </tr>
-        
-    </tbody>
-</table>
+    <table class="bordered highlight">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody ng-repeat="user in $ctrl.users">
+            <tr>
+                <td>{{user.first_name}}</td>
+                <td>{{user.last_name}}</td>
+                <td>{{user.email }}</td>
+                <td ng-if="user.first_name" class="accepted">accepted</td>
+                <td ng-if="user.message" class="not-accepted">not accepted</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

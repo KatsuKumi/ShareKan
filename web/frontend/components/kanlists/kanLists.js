@@ -14,6 +14,9 @@ COMPNT
       }
 
       this.getAllKanLists = () => {
+
+        this.kanLists = [];
+
         kanListService.getKanList().then((items) => {
           this.kanLists = (items);
           console.log(this.kanLists);

@@ -63,6 +63,20 @@ footer a {
 .collection {
     margin: 0px 0px 0px 30%;
 }
+
+/* KanInvitation */
+
+.decale {
+    margin-left:30%;
+}
+.accepted {
+    background-color: green;
+}
+.not-accepted {
+    background-color: red;
+}
+
+/* End of KanInvitation */
 .side-nav{
 
     color: white !important;

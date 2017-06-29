@@ -39,19 +39,16 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Selena Gomez - Bad Liar" =>"https://www.youtube.com/watch?v=NZKXkD6EgBk&list=RDRsaK6p8HDnU&index=7",  
             "Instruction par Jax Jones, Demi Lovato, Stefflon Don" =>"http://www.deezer.com/album/42891121?utm_source=deezer&utm_content=album-42891121&utm_term=485906_1498755873&utm_medium=web"
             ],
-            "user"=>1,
             "public" => true,
             "tags" => ["pop","rock","couille"],
             "user" => "Jean"),
             array(
             "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
-            "user"=>1,
             "public" => true,
             "tags" => ["pop","rock","couille"],
             "user" => "Keeek"),
             array(
             "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
-            "user"=>1,
             "public" => true,
             "tags" => ["pop","rock","couille"],
             "user" => "Pierreeee"),

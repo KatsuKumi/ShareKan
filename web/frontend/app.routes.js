@@ -32,11 +32,11 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             url: '/kanInvitation',
             component: 'kanInvitation',
             resolve : {
-                kanInvited : function(kanInvitationService) {
-                    kanInvitationService.getKanInvitationList();
+                users : function(kanInvitationService) {
+                    return kanInvitationService.getKanInvitationList();
                 }
             }
-        })
+        });
 
     $urlRouterProvider.otherwise('/kanLists');
 
