@@ -34,8 +34,6 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
         // 4) save the User!
         $manager->persist($user);
         $em = $manager;
-        $playlist = new Playlist();
-        $playlist->setNom('Regis Roberrrrrrrr');
         $jsondatas = [array(
             "urls" => ['https://www.youtube.com/watch?v=9VeyfvJ3iZs'],
             "user"=>1,
@@ -92,6 +90,8 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
 
         ];
         foreach ($jsondatas as $jsondata){
+            $playlist = new Playlist();
+            $playlist->setNom('Regis Roberrrrrrrr');
             $playlist->setUrls($jsondata["urls"]);
             $playlist->setCreator($user);
             $playlist->setDatetime(new \DateTime());
