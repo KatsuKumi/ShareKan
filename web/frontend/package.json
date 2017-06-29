@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.3",
+    "angular-sanitize": "^1.6.4",
     "angular-utils-pagination": "^0.11.1",
     "ng-youtube-embed": "^1.7.10"
   }

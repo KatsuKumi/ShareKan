@@ -18,7 +18,6 @@ body{
 
 /*NavBar horizontale*/
 #search input[type="text"] {
-    background: url(/frontend/assets/img/search-white.png) no-repeat 10px 6px #fcfcfc;
     margin: 0px 5% 0px 2%;
     height: 30px;
     font-family: 'Roboto', sans-serif;
@@ -51,6 +50,10 @@ body{
     margin: 0px 0px 0px 30%;
 }
 
+.icon {
+    width: 30px;
+    height: auto;
+}
 /*Footer*/
 footer a {
     color: black;
