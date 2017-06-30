@@ -18,12 +18,17 @@ class PlaylistController extends Controller
             $em = $this->getDoctrine()->getManager();
             $playlist = new Playlist();
             $jsondata = json_decode($request->request);
-            $playlist->setUrls($jsondata["urls"]);
-            $user = $em->getRepository('WCSShareKanBundle:User')->find($jsondata["user"]);
-            $playlist->setCreator($user);
+            $playlist->setNom($jsondata['title']);
+            $playlist->setUrls(array(
+                $jsondata['title1'] => $jsondata['url1'],
+                $jsondata['title2'] => $jsondata['url2'],
+                $jsondata['title3'] => $jsondata['url3']
+            ));
+            $playlist->setCreator($this->get('security.token_storage')->getToken()->getUser());
             $playlist->setDatetime(new \DateTime());
-            $playlist->setPublic($jsondata["public"]);
-            $playlist->setTags($jsondata["tags"]);
+            $playlist->setPublic(true);
+            $tagsarr = explode(',', $jsondata["tags"]);
+            $playlist->setTags($tagsarr);
             $playlist->setVote(0);
             $em->persist($playlist);
             $em->flush();
