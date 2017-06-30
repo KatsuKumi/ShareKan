@@ -14,9 +14,19 @@ body{
 #slide-out{
     font-size: 28px;
 }
-.icons {
+
+.side-nav li > a {
+    margin: 20px 0px 10px 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: left;
+}
+
+img.icon {
     margin-right: 20px;
- }
+    vertical-align: middle
+}
+
 .brand-logo{
     height: 80px;
 }
@@ -180,6 +190,7 @@ nav {
     text-align: center;
 }
 
+<<<<<<< HEAD
 
 .divider{
     margin-bottom: 20px;
@@ -189,4 +200,23 @@ form#search{;
 }
 .side-nav li a{
     font-size: 12px;
+}
+/* kanInvitation */
+
+.top {
+    margin-top:20px;
+}
+textarea {
+    resize: none;
+}
+.more_little {
+    font-size: 2rem;
+}
+
+/* end KanInvitation */
+
+/* Login */
+
+.superTop {
+    margin-top: 150px
 }

@@ -29,7 +29,7 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Dream Of Something Sweet Ft. Cory Friesenha" => 'https://soundcloud.com/k-391/dream-of-something-sweet-ft'],
             "public" => true,
             "tags" => ["electro", "pop"],
-            "user" => "user"),
+            "user" => "Alex"),
             array(
             "urls" => [
             "Nicky Stix - Go For It" =>"https://soundcloud.com/dwyer018/nicky-stix-go-for-it",
@@ -38,33 +38,33 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Heyzus(Feat. Ant Beale & Kur)" =>"https://soundcloud.com/goodworkcharlie/heyzusfeat-ant-beale-kur", 
             "20 Wake N Bake" =>"https://soundcloud.com/kodak-black/20-wake-n-bake",
             "Selena Gomez - Bad Liar" =>"https://www.youtube.com/watch?v=NZKXkD6EgBk&list=RDRsaK6p8HDnU&index=7",  
-            "One Day / Reckoning Song (Wankelmut Remix)" =>"http://www.deezer.com/track/35407931?utm_source=deezer&utm_content=track-35407931&utm_term=1457366862_1498773666&utm_medium=web"
+            "One Day / Reckoning Song" =>"http://www.deezer.com/track/35407931?utm_source=deezer&utm_content=track-35407931&utm_term=1457366862_1498773666&utm_medium=web"
             ],
             "user"=>1,
             "public" => true,
             "tags" => ["pop","electro", "rock"],
-            "user" => "admin"),
+            "user" => "Jean-Paul"),
             array(
             "urls" => ["Alone, Petit Biscuit" =>'http://www.deezer.com/track/126331805?utm_source=deezer&utm_content=track-126331805&utm_term=1457366862_1498775066&utm_medium=web'],
             "user"=>1,
             "public" => true,
             "tags" => ["rock"],
-            "user" => "test"),
+            "user" => "Alex"),
             array(
             "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
             "user"=>1,
             "public" => true,
             "tags" => ["rock"],
-            "user" => "toto"),
+            "user" => "Pierre"),
             ];
 
         foreach ($jsondatas as $jsondata){
             $playlist = new Playlist();
-            $playlist->setNom('Regis kkj');
+            $playlist->setNom('Jean-Paul');
             $playlist->setUrls($jsondata["urls"]);
             $user = new User();
             $user->setUsername($jsondata["user"]);
-            $user->setEmail('admin@kek.fr');
+            $user->setEmail('pierrevicq@gmail.fr');
             $user->setPassword('test');
             $encoder = $this->container->get('security.password_encoder');
             $password = $encoder->encodePassword($user, "test");

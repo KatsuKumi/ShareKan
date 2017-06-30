@@ -1,4 +1,3 @@
-
 <div>
   <nav>
     <div class="nav-wrapper fixed">
@@ -44,16 +43,17 @@
 <div class="row content">
   <div class="col l10 offset-l1 m12">
     <div class="col m1">
-      <--
     </div>
     <div class="col m10 xs12">
       <div class="titleplaylist center">{{$ctrl.currentplaylist}}</div>
-        <iframe ng-if="$ctrl.soundcloudurl != '' " ng-src="{{$ctrl.soundcloudurl}}" width="100%" height="80" scrolling="no" frameborder="no" ></iframe>
-      
-      <iframe ng-if="$ctrl.deezerurl != '' " width="100%"  height="90" scrolling="no" frameborder="0" allowTransparency="true" ng-src="{{$ctrl.deezerurl}}" width="700" height="350"></iframe>
-      
-      <ng-youtube-embed ng-if="$ctrl.ytburl != '' " video='$ctrl.ytburl' autoplay="true" color="white" disablekb="true" end="20" width="100%" height="250"></ng-youtube-embed>
-      
+      <iframe ng-if="$ctrl.soundcloudurl != '' " ng-src="{{$ctrl.soundcloudurl}}" width="100%" height="80" scrolling="no" frameborder="no"></iframe>
+
+      <iframe ng-if="$ctrl.deezerurl != '' " width="100%" height="90" scrolling="no" frameborder="0" allowTransparency="true" ng-src="{{$ctrl.deezerurl}}"
+        width="700" height="350"></iframe>
+
+      <ng-youtube-embed ng-if="$ctrl.ytburl != '' " video='$ctrl.ytburl' autoplay="true" color="white" disablekb="true" end="20"
+        width="100%" height="250"></ng-youtube-embed>
+
       <div ng-if="$ctrl.soundcloudurl == null && $ctrl.deezerurl == null && $ctrl.ytburl == null">Aucune playlist sélectionné</div>
 
       <div class="titlemusic center">{{$ctrl.titre}}</div>
@@ -78,21 +78,23 @@
           <td>{{kanList.urls.length}}</td>
           <td>{{kanList.creator.username}}</td>
           <td>
-          <ul class="taglist">
-            <li ng-repeat="tag in kanList.tags">{{tag}}</li>
-          </ul>
+            <ul class="taglist">
+              <li ng-repeat="tag in kanList.tags">{{tag}}</li>
+            </ul>
           </td>
           <td>
-            <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="green material-icons">play_arrow</i></a>
+            <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="material-icons">play_arrow</i></a>
+            <a ng-click='$ctrl.savekanList()' class="waves-effect waves-light btn"><i class="material-icons">add</i></a>
+            <a ng-click='$ctrl.sendkanList()' class="waves-effect waves-light btn"><i class="material-icons">reply</i></a>
           </td>
         </tr>
       </table>
       <!--<dir-pagination-controls boundary-links="true" on-page-change="$ctrl.pageChangeHandler(newPageNumber)" template="node_modules/angular-utils-pagination/dirPagination.tpl.html"></dir-pagination-controls>-->
     </div>
     <div class="col m1">
-      -->
     </div>
   </div>
+</div>
 </div>
 
 <!--<tr dir-paginate="kanList in $ctrl.kanLists | itemsPerPage: 10 track by $index" current-page="$ctrl.currentPage">-->
