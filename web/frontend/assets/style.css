@@ -22,6 +22,10 @@ body{
     text-align: left;
 }
 
+.divideradd {
+    margin: 30px;
+}
+
 img.icon {
     margin-right: 20px;
     vertical-align: middle
@@ -37,6 +41,10 @@ img.icon {
 
 .divider {
     margin-bottom: 10px;
+}
+
+.dividers {
+    margin: 25px;
 }
 
 /*NavBar horizontale*/

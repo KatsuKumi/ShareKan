@@ -53,16 +53,22 @@ COMPNT
       }
 
 
-      // this.savekanList = (kanList) => {
-      //   var new_kanList = {
-      //     "title": this.kanList.title,
-      //     "content": this.kanList.url,
-      //   }
-      //   kanListService.saveKan(new_kanList).then((items) => {
-      //     $state.go('kanLists');
-      //   }).catch((err) => {
-      //   });
-      // };
+      this.savekanList = (kanList) => {
+        var new_kanList = {
+          "title": this.kanList.title,
+          "title1": this.kanList.title1,
+          "title2": this.kanList.title2,
+          "title3": this.kanList.title3,
+          "url1": this.kanList.url1,
+          "url2": this.kanList.url2,
+          "url3": this.kanList.url3,
+          "tags": this.kanList.tags,
+        }
+        kanListService.saveKan(new_kanList).then((items) => {
+          $state.go('kanLists');
+        }).catch((err) => {
+        });
+      };
 
     }]
   });
