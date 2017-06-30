@@ -54,6 +54,12 @@ body{
     background-color: rgb(64,64,64);
     border-bottom: none;
 }
+input{
+    color:white;
+}
+textarea{
+    color:white;
+}
 /*Body Accueil*/
 .container {
     margin: 0px 0px 0px 30%;
@@ -86,6 +92,11 @@ footer a {
     width: 250px;
 }
 @media screen and (max-width: 992px) {
+
+    .content{
+        margin-right: 0 !important;
+        margin-top: 0;
+    }
     .side-nav.fixed {
         -webkit-transform: translateX(+105%);
         transform: translateX(+105%);

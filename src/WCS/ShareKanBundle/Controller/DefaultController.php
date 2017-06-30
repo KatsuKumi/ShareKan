@@ -15,29 +15,35 @@ class DefaultController extends Controller
         return new JsonResponse(array('data' => 123));
 
     }
+    public function actualUserAction (Request $request)
+    {
+        $jsonContent = $this->container->get('jsonparse')->toJson($this->get('security.token_storage')->getToken()->getUser());
 
-    public function emailAction (Request $request){
+            return new Response($jsonContent);
+    }
+    public function inviteAction(Request $request){
 
+            $em = $this->getDoctrine()->getManager();
+            $jsondata = json_decode($request->request);
+            $user = $em->getRepository('WCSShareKanBundle:User')->find($jsondata["userid"]);
 
-    $data = $form->getData();
-    $message = \Swift_Message::newInstance()
-        ->setSubject('Invitation de' . " " . $form->get('name')->getData())
-        ->setFrom("demo@example.fr")
-        ->setTo('sharekan-d61ed7@inbox.mailtrap.io')
-        ->setContentType('text/html')
-        ->setBody(
-            $this->renderView('',  // vue Twig du mail
-                array( 'name' => $data['name'],
-                    'mail' => $data['mail'],
-                ),
-                'text/html'
-            ));
+        $message = \Swift_Message::newInstance()
+            ->setSubject('Invitation de' . " " . $user->getNom())
+            ->setFrom("vigeantalex@gmail.com")
+            ->setTo($jsondata["email"])
+            ->setContentType('text/html')
+            ->setBody(
+                $this->renderView('email.html.twig',  // vue Twig du mail
+                    array( 'name' => $user->getNom(),
+                        'mail' => $jsondata["email"],
+                        'message' => $jsondata["message"],
+                    ),
+                    'text/html'
+                ));
 
-    $this->get('mailer')->send($message);
+        $this->get('mailer')->send($message);
 
+            return new Response("ok");
 
-
-
-    return new Response('coded_by_a_noob_sorry');
-}
+    }
 }

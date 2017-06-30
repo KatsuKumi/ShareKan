@@ -5,10 +5,13 @@ COMPNT
 
     templateUrl: '/components/kanlists/kanLists.html',
 
-    controller: ['kanListService', '$log', '$sce', 'soundcloudcchiant', function (kanListService, $log, $sce,soundcloudcchiant) {
+    controller: ['kanListService', '$log', '$sce', 'soundcloudcchiant', 'userService', function (kanListService, $log, $sce,soundcloudcchiant, userService ) {
 
       this.$onInit = () => {
         this.getAllKanLists();
+        userService.getCurrentUser().then((items) => {
+          this.currentUser = (items);
+        }).catch((err) => { });
         this.pageChangeHandler = (num) => {
         }
       }
@@ -16,6 +19,7 @@ COMPNT
       this.getAllKanLists = () => {
         kanListService.getKanList().then((items) => {
           this.kanLists = (items);
+          this.currentKanLists = items[0];
           console.log(this.kanLists);
         }).catch((err) => { });
       }
