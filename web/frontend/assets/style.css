@@ -194,3 +194,23 @@ nav {
     color:white;
     text-align: center;
 }
+
+/* kanInvitation */
+
+.top {
+    margin-top:20px;
+}
+textarea {
+    resize: none;
+}
+.more_little {
+    font-size: 2rem;
+}
+
+/* end KanInvitation */
+
+/* Login */
+
+.superTop {
+    margin-top: 150px;
+}
