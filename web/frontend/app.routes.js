@@ -3,6 +3,13 @@
 SHARE.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
 
+
+        .state({
+            name: 'login',
+            url: '/login',
+            component: 'login',
+        })
+
         .state({
             name: 'kanList',
             url: '/kanList',
@@ -38,8 +45,8 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             name: 'kanInvitation',
             url: '/kanInvitation',
             component: 'kanInvitation',
-            resolve : {
-                kanInvited : function(kanInvitationService) {
+            resolve: {
+                kanInvited: function (kanInvitationService) {
                     kanInvitationService.getKanInvitationList();
                 }
             }
