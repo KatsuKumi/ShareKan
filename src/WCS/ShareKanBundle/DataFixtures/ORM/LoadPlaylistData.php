@@ -29,7 +29,7 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Dream Of Something Sweet Ft. Cory Friesenha" => 'https://soundcloud.com/k-391/dream-of-something-sweet-ft'],
             "public" => true,
             "tags" => ["electro", "pop"],
-            "user" => "user"),
+            "user" => "Alex"),
             array(
             "urls" => [
             "Nicky Stix - Go For It" =>"https://soundcloud.com/dwyer018/nicky-stix-go-for-it",
@@ -43,19 +43,19 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "user"=>1,
             "public" => true,
             "tags" => ["pop","electro", "rock"],
-            "user" => "admin"),
+            "user" => "Jean-Paul"),
             array(
             "urls" => ["Alone, Petit Biscuit" =>'http://www.deezer.com/track/126331805?utm_source=deezer&utm_content=track-126331805&utm_term=1457366862_1498775066&utm_medium=web'],
             "user"=>1,
             "public" => true,
             "tags" => ["rock"],
-            "user" => "test"),
+            "user" => "Alex"),
             array(
             "urls" => ["20 Wake N Bake" =>'https://soundcloud.com/pnbrock/unforgettable-freestyle'],
             "user"=>1,
             "public" => true,
             "tags" => ["rock"],
-            "user" => "toto"),
+            "user" => "Pierre"),
             ];
 
         foreach ($jsondatas as $jsondata){

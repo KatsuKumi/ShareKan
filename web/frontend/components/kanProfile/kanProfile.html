@@ -1,4 +1,3 @@
-
 <div>
     <nav>
         <div class="nav-wrapper fixed">
@@ -22,37 +21,67 @@
     </nav>
 </div>
 
-<ul class="collection">
-    <li class="collection-item avatar">
-      <img src="images/yuna.jpg" alt="" class="circle">
-      <span class="title">KanList 1</span>
-      <p>Video Youtube<br>
-         blahblahblah
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle">folder</i>
-      <span class="title">KanList 2</span>
-      <p>Playlist Spotify<br>
-         blahblahblah
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle green">insert_chart</i>
-      <span class="title">KanList 3</span>
-      <p>Sound-Cloud<br>
-         blahblahblah
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="collection-item avatar">
-      <i class="material-icons circle red">play_arrow</i>
-      <span class="title">KanList 4</span>
-      <p>Deezer<br>
-         blahblahblah
-      </p>
-      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-  </ul>
+<div class="row content">
+    <div class="col l10 offset-l1 m12">
+        <div class="col m1">
+        </div>
+        <div class="col m10 xs12">
+
+            <div class="divider"></div>
+            
+            <table class="tableplaylist" style="width:100%">
+                <tr>
+                    <th>Piotr___</th>
+                    <th>pierrevicq@gmail.com</th>
+                    <th> </th>
+                </tr>
+            </table>
+        </div>
+        <div class="col m1">
+        </div>
+    </div>
+</div>
+
+
+<div class="row content">
+    <div class="col l10 offset-l1 m12">
+        <div class="col m1">
+        </div>
+        <div class="col m10 xs12">
+            <div ng-if="$ctrl.soundcloudurl == null && $ctrl.deezerurl == null && $ctrl.ytburl == null">Aucune playlist sélectionné</div>
+
+            <div class="titlemusic center">{{$ctrl.titre}}</div>
+
+            <ul class="taglist">
+                <li ng-repeat="tag in $ctrl.tagslist">{{tag}}</li>
+            </ul>
+            <div class="divider"></div>
+            <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+                <input type="text" placeholder="Search..." ng-model='search' />
+            </form>
+            <table class="tableplaylist" style="width:100%">
+                <tr>
+                    <th>KanLists</th>
+                    <th>Titres</th>
+                    <th>Tags</th>
+                    <th> </th>
+                </tr>
+                <tr ng-repeat="kanList in $ctrl.kanLists | filter:search">
+                    <td>{{kanList.nom}}</td>
+                    <td>{{kanList.urls.length}}</td>
+                    <td>{{kanList.creator.username}}</td>
+                    <td>
+                        <ul class="taglist">
+                            <li ng-repeat="tag in kanList.tags">{{tag}}</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="green material-icons">play_arrow</i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col m1">
+        </div>
+    </div>
+</div>
