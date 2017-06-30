@@ -203,6 +203,17 @@ nav {
     text-align: center;
 }
 
+<<<<<<< HEAD
+
+.divider{
+    margin-bottom: 20px;
+}
+form#search{;
+    margin-bottom: 20px;
+}
+.side-nav li a{
+    font-size: 12px;
+}
 /* kanInvitation */
 
 .top {
@@ -220,5 +231,5 @@ textarea {
 /* Login */
 
 .superTop {
-    margin-top: 150px;
+    margin-top: 150px
 }
