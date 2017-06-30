@@ -12,11 +12,6 @@ security:
 
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
     providers:
-        in_memory:
-            memory:
-                users:
-                    user:  { password: userpass, roles: [ 'ROLE_USER' ] }
-                    admin: { password: adminpass, roles: [ 'ROLE_ADMIN' ] }
         our_db_provider:
            entity:
                 class: WCSShareKanBundle:User
@@ -36,17 +31,22 @@ security:
                 username_parameter: username
                 password_parameter: password
                 check_path:               /api/login_check
-                provider: our_db_provider
+                provider:                 our_db_provider
                 success_handler:          lexik_jwt_authentication.handler.authentication_success
                 failure_handler:          lexik_jwt_authentication.handler.authentication_failure
                 require_previous_session: false
 
-#        api:
-#            pattern:   ^/api
-#            stateless: true
-#            guard:
-#                authenticators:
-#                    - lexik_jwt_authentication.jwt_token_authenticator
+        api:
+            pattern:   ^/api
+            stateless: true
+            provider: our_db_provider
+            lexik_jwt:
+                authorization_header:
+                    enabled: true
+                    prefix:  Bearer
+                query_parameter:
+                    enabled: true
+                    name:    bearer
         main:
             pattern: ^/
             anonymous: ~

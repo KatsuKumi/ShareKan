@@ -22,3 +22,11 @@ api_playlist_get:
 api_playlist_all:
     path: /playlist/get/all
     defaults: { _controller: WCSShareKanBundle:Playlist:getall }
+
+api_get_user_actual:
+    path: /user/get/actual
+    defaults: { _controller: WCSShareKanBundle:Default:actualUser }
+
+api_get_user_invite:
+    path: /user/invite
+    defaults: { _controller: WCSShareKanBundle:Default:invite }

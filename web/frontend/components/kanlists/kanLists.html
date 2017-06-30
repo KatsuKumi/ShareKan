@@ -1,8 +1,32 @@
+
+<div>
+  <nav>
+    <div class="nav-wrapper fixed">
+      <a ui-sref="home" class="brand-logo"><img src="assets/images/logo.png "></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="heightexpandable"><a ui-sref="kanProfile"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+        <li class="heightexpandable"><a ui-sref="kanLists"><i class="material-icons">queue_music</i>KanLists</a></li>
+        <li class="heightexpandable"><a ui-sref="kanInvitation"><i class="material-icons">email</i>Invitations</a></li>
+      </ul>
+      <ul class="right">
+        <li>
+
+          <a class="hide-on-large-only">
+
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
 <ul id="slide-out" class="side-nav fixed right">
   <li>
     <a href="#" id="profile" class="white-text">
                 <i class="white-text medium material-icons icons">perm_identity</i>
-                Baptiste Abrioux
+                {{$ctrl.currentUser.username}}
         </a>
   </li>
   <li>
@@ -11,7 +35,7 @@
   <ul>
     <li ng-repeat="(key, url) in $ctrl.currentKanLists.urls">
       <a ng-if="url.includes('youtube')" ng-click='$ctrl.ytplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png">{{key}}</a>
-      <a ng-if="url.includes('soundcloud')" ng-click='$ctrl.sdplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="https://upload.wikimedia.org/wikipedia/fr/b/bb/SoundCloud_logo.png">{{key}}</a>
+      <a ng-if="url.includes('soundcloud')" ng-click='$ctrl.sdplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="https://cdn2.iconfinder.com/data/icons/minimalism/512/soundcloud.png">{{key}}</a>
       <a ng-if="url.includes('deezer')" ng-click='$ctrl.deezplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="http://lh6.ggpht.com/xWRpCfAK6F2vF8ZPmTBi1oOyUI76GxuBGoD9jLGuVzq-4HuOCpDo1wdi6Gkhe2z4xg4=w300">{{key}}</a>
     </li>
   </ul>
@@ -22,7 +46,7 @@
     <div class="col m1">
       <--
     </div>
-    <div class="col m10">
+    <div class="col m10 xs12">
       <div class="titleplaylist center">{{$ctrl.currentplaylist}}</div>
         <iframe ng-if="$ctrl.soundcloudurl != '' " ng-src="{{$ctrl.soundcloudurl}}" width="100%" height="80" scrolling="no" frameborder="no" ></iframe>
       
@@ -38,41 +62,36 @@
         <li ng-repeat="tag in $ctrl.tagslist">{{tag}}</li>
       </ul>
       <div class="divider"></div>
+      <form ng-submit="$ctrl.getSearchQuestions()" id="search">
+        <input type="text" placeholder="Search..." ng-model='search' />
+      </form>
+      <table class="tableplaylist" style="width:100%">
+        <tr>
+          <th>Titre</th>
+          <th>Nb</th>
+          <th>Créateur</th>
+          <th>Tags</th>
+          <th> </th>
+        </tr>
+        <tr ng-repeat="kanList in $ctrl.kanLists | filter:search">
+          <td>{{kanList.nom}}</td>
+          <td>{{kanList.urls.length}}</td>
+          <td>{{kanList.creator.username}}</td>
+          <td>
+          <ul class="taglist">
+            <li ng-repeat="tag in kanList.tags">{{tag}}</li>
+          </ul>
+          </td>
+          <td>
+            <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="green material-icons">play_arrow</i></a>
+          </td>
+        </tr>
+      </table>
+      <!--<dir-pagination-controls boundary-links="true" on-page-change="$ctrl.pageChangeHandler(newPageNumber)" template="node_modules/angular-utils-pagination/dirPagination.tpl.html"></dir-pagination-controls>-->
     </div>
     <div class="col m1">
       -->
     </div>
-
-    <form ng-submit="$ctrl.getSearchQuestions()" id="search">
-      <input type="text" placeholder="Search..." ng-model='search' />
-      <a class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a>
-
-    </form>
-
-    <table class="tableplaylist" style="width:100%">
-      <tr>
-        <th>Titre</th>
-        <th>Nb</th>
-        <th>Créateur</th>
-        <th>Tags</th>
-        <th> </th>
-      </tr>
-      <tr ng-repeat="kanList in $ctrl.kanLists | filter:search">
-        <td>{{kanList.nom}}</td>
-        <td>{{kanList.urls.length}}</td>
-        <td>{{kanList.creator.username}}</td>
-        <td>
-          <ul class="taglist">
-            <li ng-repeat="tag in kanList.tags">{{tag}}</li>
-          </ul>
-        </td>
-        <td>
-          <a ng-click='$ctrl.showTitles(kanList)' class="waves-effect waves-light btn"><i class="material-icons">play_arrow</i></a>
-        </td>
-      </tr>
-    </table>
-    <!--<dir-pagination-controls boundary-links="true" on-page-change="$ctrl.pageChangeHandler(newPageNumber)" template="node_modules/angular-utils-pagination/dirPagination.tpl.html"></dir-pagination-controls>-->
-
   </div>
 </div>
 
