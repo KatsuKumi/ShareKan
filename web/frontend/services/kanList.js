@@ -1,10 +1,14 @@
 'use strict';
 
-SERVICES.service('kanListService', ['$http', '$log', '$q', function ($http, $log, $q) {
+SERVICES.service('kanListService', ['$http', '$log', '$q', '$cookies', function ($http, $log, $q, $cookies) {
 
   this.getKanList = () => {
     return $q((resolve, reject) => {
-      $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all").then((response) => {
+        var config = {headers:  {
+            'Authorization': 'Bearer '+ $cookies.get('token')
+            }
+        };
+      $http.get("http://localhost:8888/web/app_dev.php/api/playlist/get/all", config).then((response) => {
         resolve(response.data);
       })
         .catch((err) => {

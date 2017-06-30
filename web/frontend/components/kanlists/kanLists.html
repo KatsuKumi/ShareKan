@@ -2,7 +2,7 @@
   <li>
     <a href="#" id="profile" class="white-text">
                 <i class="white-text medium material-icons icons">perm_identity</i>
-                Baptiste Abrioux
+                {{$ctrl.currentUser.username}}
         </a>
   </li>
   <li>
@@ -11,7 +11,7 @@
   <ul>
     <li ng-repeat="(key, url) in $ctrl.currentKanLists.urls">
       <a ng-if="url.includes('youtube')" ng-click='$ctrl.ytplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png">{{key}}</a>
-      <a ng-if="url.includes('soundcloud')" ng-click='$ctrl.sdplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="http://www.iconsdb.com/icons/preview/orange/soundcloud-3-xxl.png">{{key}}</a>
+      <a ng-if="url.includes('soundcloud')" ng-click='$ctrl.sdplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="https://cdn2.iconfinder.com/data/icons/minimalism/512/soundcloud.png">{{key}}</a>
       <a ng-if="url.includes('deezer')" ng-click='$ctrl.deezplayer(url); $ctrl.titre = key' class="active"><img class="icon" src="http://lh6.ggpht.com/xWRpCfAK6F2vF8ZPmTBi1oOyUI76GxuBGoD9jLGuVzq-4HuOCpDo1wdi6Gkhe2z4xg4=w300">{{key}}</a>
     </li>
   </ul>
@@ -22,7 +22,7 @@
     <div class="col m1">
       <--
     </div>
-    <div class="col m10">
+    <div class="col m10 xs12">
       <div class="titleplaylist center">{{$ctrl.currentplaylist}}</div>
         <iframe ng-if="$ctrl.soundcloudurl != '' " ng-src="{{$ctrl.soundcloudurl}}" width="100%" height="80" scrolling="no" frameborder="no" ></iframe>
       
