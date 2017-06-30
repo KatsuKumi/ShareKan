@@ -35,10 +35,14 @@ img.icon {
     width: auto;
 }
 
+.divider {
+    margin-bottom: 10px;
+}
+
 /*NavBar horizontale*/
 #search input[type="text"] {
-    margin: 0px 5% 0px 2%;
-    height: 30px;
+    margin: 0px 20px 0px 20px;
+    height: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #048B9A;
