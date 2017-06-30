@@ -29,7 +29,7 @@ security:
             security: false
 
         login:
-            pattern:  ^/api/login
+            pattern:  ^/api/
             stateless: true
             anonymous: true
             form_login:

@@ -1,48 +1,23 @@
 
-
 'use strict';
 
-SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http, $log, $q) {
+COMPNT
+  .component("kanInvitation", {
 
-    this.getKanInvitationList = () => {
+    templateUrl: '/components/kanInvitation/kanInvitation.html',
 
-        var defer = $q.defer();
+    bindings: {
 
-        $http.get("http://localhost:3000/users").then((response) => {
-       // $http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
-            defer.resolve(response.data);
-            console.log(response.data);
-        }).catch((err) => {
-            $log.debug(`Error: ${err}`);
-            defer.reject(err);
-        });
-        return defer.promise;
-    };
-  
-    this.getKanAcceptedInvitation = (email) => {
-    return $q((resolve, reject) => {
-      $http.get("http://localhost:3000/users?email=" + email).then((response) => {
-      //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
-        resolve(response.data);
-      })
-        .catch((err) => {
-          reject(err);
-        });
-    });
-  }
+      users: '<',
+      newUser: '<'
+    },
 
-  this.postInvitation = (newUser) => {
-     console.log(newUser);
-    return $q((resolve, reject) => {
-      $http.post("http://localhost:8888/web/app_dev.php/api/user/invite" , newUser).then((response) => {
-      //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
-
-        resolve(response.data);
-      })
-        .catch((err) => {
-          reject(err);
-        });
-    });
-  }
-
-}]);
+    controller: ['kanInvitationService', '$log', function (kanInvitationService, $log) {
+      this.$onInit = () => {
+        console.log(this.users); 
+      }
+      this.sendInvit = (newUser) => {
+          return kanInvitationService.postInvitation(newUser);
+        }
+    }]
+  });

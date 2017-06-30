@@ -8,6 +8,7 @@ SHARE.config(function ($stateProvider, $urlRouterProvider) {
             name: 'login',
             url: '/login',
             component: 'login',
+            
         })
 
         .state({
