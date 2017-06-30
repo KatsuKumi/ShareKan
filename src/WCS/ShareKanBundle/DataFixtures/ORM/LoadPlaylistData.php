@@ -60,11 +60,11 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
 
         foreach ($jsondatas as $jsondata){
             $playlist = new Playlist();
-            $playlist->setNom('Regis kkj');
+            $playlist->setNom('Jean-Paul');
             $playlist->setUrls($jsondata["urls"]);
             $user = new User();
             $user->setUsername($jsondata["user"]);
-            $user->setEmail('admin@kek.fr');
+            $user->setEmail('pierrevicq@gmail.fr');
             $user->setPassword('test');
             $encoder = $this->container->get('security.password_encoder');
             $password = $encoder->encodePassword($user, "test");
