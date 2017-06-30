@@ -38,7 +38,7 @@ class LoadPlaylistData implements FixtureInterface, ContainerAwareInterface
             "Heyzus(Feat. Ant Beale & Kur)" =>"https://soundcloud.com/goodworkcharlie/heyzusfeat-ant-beale-kur", 
             "20 Wake N Bake" =>"https://soundcloud.com/kodak-black/20-wake-n-bake",
             "Selena Gomez - Bad Liar" =>"https://www.youtube.com/watch?v=NZKXkD6EgBk&list=RDRsaK6p8HDnU&index=7",  
-            "One Day / Reckoning Song (Wankelmut Remix)" =>"http://www.deezer.com/track/35407931?utm_source=deezer&utm_content=track-35407931&utm_term=1457366862_1498773666&utm_medium=web"
+            "One Day / Reckoning Song" =>"http://www.deezer.com/track/35407931?utm_source=deezer&utm_content=track-35407931&utm_term=1457366862_1498773666&utm_medium=web"
             ],
             "user"=>1,
             "public" => true,
