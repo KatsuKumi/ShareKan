@@ -1,3 +1,27 @@
+
+<div>
+  <nav>
+    <div class="nav-wrapper fixed">
+      <a ui-sref="home" class="brand-logo"><img src="/logo.png "></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="heightexpandable"><a ui-sref="kanProfile"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+        <li class="heightexpandable"><a ui-sref="kanLists"><i class="material-icons">queue_music</i>KanLists</a></li>
+        <li class="heightexpandable"><a ui-sref="kanInvitation"><i class="material-icons">email</i>Invitations</a></li>
+      </ul>
+      <ul class="right">
+        <li>
+
+          <a class="hide-on-large-only">
+
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
 <div class="container">
   <div class="kanList flex" ng-repeat="kanList in $ctrl.kanLists track by $index">
 
