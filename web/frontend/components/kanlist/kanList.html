@@ -1,21 +1,50 @@
+<div>
+  <nav>
+    <div class="nav-wrapper fixed">
+      <a ui-sref="home" class="brand-logo"><img src="assets/images/logo.png "></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="heightexpandable"><a ui-sref="kanProfile"><i class="material-icons">person_pin</i>My KanProfile</a></li>
+        <li class="heightexpandable"><a ui-sref="kanLists"><i class="material-icons">queue_music</i>KanLists</a></li>
+        <li class="heightexpandable"><a ui-sref="kanInvitation"><i class="material-icons">email</i>Invitations</a></li>
+      </ul>
+      <ul class="right">
+        <li>
+
+          <a class="hide-on-large-only">
+
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+
+
 <h1 class="center-align grey-text more_little">Add a kanList</h1>
         <div class="row">
             <div class="col m8 offset-m2">
         <form class="grey-text" name="invit">
-            <input ng-model="$ctrl.newkanList.title" type="email" name="recipient" value="" placeholder="kanList Title" required>
+            <input ng-model="$ctrl.newkanList.title" type="text" name="recipient" value="" placeholder="kanList Title" required>
             <div class="divideradd"></div>
 
             
-            <input ng-model="$ctrl.newkanList.title1" type="email" name="recipient" value="" placeholder="title" required>
-            <input ng-model="$ctrl.newkanList.url1" type="email" name="recipient" value="" placeholder="URL" required>
+            <input ng-model="$ctrl.newkanList.title1" type="text" name="recipient" value="" placeholder="title" required>
+            <input ng-model="$ctrl.newkanList.url1" type="text" name="recipient" value="" placeholder="URL" required>
             <div class="dividers"></div>
-            <input ng-model="$ctrl.newkanList.title2" type="email" name="recipient" value="" placeholder="title" required>
-            <input ng-model="$ctrl.newkanList.url2" type="email" name="recipient" value="" placeholder="URL" required>
+            <input ng-model="$ctrl.newkanList.title2" type="text" name="recipient" value="" placeholder="title" >
+            <input ng-model="$ctrl.newkanList.url2" type="text" name="recipient" value="" placeholder="URL" >
             <div class="dividers"></div>
-            <input ng-model="$ctrl.newkanList.title3" type="email" name="recipient" value="" placeholder="title" required>
-            <input ng-model="$ctrl.newkanList.url3" type="email" name="recipient" value="" placeholder="URL" required>
+            <input ng-model="$ctrl.newkanList.title3" type="text" name="recipient" value="" placeholder="title" >
+            <input ng-model="$ctrl.newkanList.url3" type="text" name="recipient" value="" placeholder="URL" >
             <div class="dividers"></div>
-            <input ng-model="$ctrl.newkanList.tags" type="email" name="recipient" value="" placeholder="Tags, Tags, Tags" required>
+            <input ng-model="$ctrl.newkanList.tags" type="text" name="recipient" value="" placeholder="Tags, Tags, Tags" >
             
             <button class="waves-effect waves-light btn" ng-click="$ctrl.savekanList($ctrl.newkanList)">Add </button> 
         </form>

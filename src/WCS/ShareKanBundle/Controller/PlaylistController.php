@@ -17,17 +17,16 @@ class PlaylistController extends Controller
 //        if($request->isXmlHttpRequest()){
             $em = $this->getDoctrine()->getManager();
             $playlist = new Playlist();
-            $jsondata = json_decode($request->request);
-            $playlist->setNom($jsondata['title']);
+            $playlist->setNom($request->request->get("title"));
             $playlist->setUrls(array(
-                $jsondata['title1'] => $jsondata['url1'],
-                $jsondata['title2'] => $jsondata['url2'],
-                $jsondata['title3'] => $jsondata['url3']
+                $request->request->get("title1")=> $request->request->get("url1"),
+                $request->request->get("title2")=> $request->request->get("url2"),
+                $request->request->get("title3")=> $request->request->get("url3")
             ));
             $playlist->setCreator($this->get('security.token_storage')->getToken()->getUser());
             $playlist->setDatetime(new \DateTime());
             $playlist->setPublic(true);
-            $tagsarr = explode(',', $jsondata["tags"]);
+            $tagsarr = explode(',', $request->request->get("tags"));
             $playlist->setTags($tagsarr);
             $playlist->setVote(0);
             $em->persist($playlist);

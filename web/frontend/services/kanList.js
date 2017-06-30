@@ -30,7 +30,11 @@ SERVICES.service('kanListService', ['$http', '$log', '$q', '$cookies', function 
 
   this.saveKan = function (kanLeSurvivant) {
             var deferred = $q.defer();
-            $http.post("http://localhost:8888/web/app_dev.php/api/playlist/add", kanLeSurvivant).then((response) => {
+            var config = {headers:  {
+            'Authorization': 'Bearer '+ $cookies.get('token')
+            }
+        };
+            $http.post("http://localhost:8888/web/app_dev.php/api/playlist/add", kanLeSurvivant, config).then((response) => {
                 deferred.resolve(response.data);
             }).catch((error) => {
                 deferred.reject(error);

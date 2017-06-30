@@ -48,13 +48,12 @@
         <div class="col m1">
         </div>
         <div class="col m10 xs12">
-            <div ng-if="$ctrl.soundcloudurl == null && $ctrl.deezerurl == null && $ctrl.ytburl == null">Aucune playlist sélectionné</div>
-
             <div class="titlemusic center">{{$ctrl.titre}}</div>
 
             <ul class="taglist">
                 <li ng-repeat="tag in $ctrl.tagslist">{{tag}}</li>
             </ul>
+            <h1 class="center titleplaylist">Mes kanLists</h1>
             <div class="divider"></div>
             <form ng-submit="$ctrl.getSearchQuestions()" id="search">
                 <input type="text" placeholder="Search..." ng-model='search' />
@@ -80,6 +79,8 @@
                     </td>
                 </tr>
             </table>
+            <div class="titleplaylist center" ng-if="$ctrl.soundcloudurl == null && $ctrl.deezerurl == null && $ctrl.ytburl == null">Aucune playlist</div>
+
         </div>
         <div class="col m1">
         </div>

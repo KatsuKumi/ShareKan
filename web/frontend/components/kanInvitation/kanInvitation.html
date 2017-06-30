@@ -29,9 +29,10 @@
 
 
 
-<h1 class="center-align grey-text more_little">Invit a friend</h1>
+<h1 class="center-align grey-text more_little superTop">Invite a friend</h1>
         <div class="row">
             <div class="col m8 offset-m2">
+                <div class="green-text">{{$ctrl.successtext}}</div>
         <form class="grey-text" name="invit">
             <input ng-model="$ctrl.newUser.email" type="email" name="recipient" value="" placeholder="The recipient mail here" required>
             <textarea ng-model="$ctrl.newUser.message" rows="8" cols="8" aria-placeholder="you can type an invit message if you want..."></textarea>
@@ -41,7 +42,7 @@
         
     
 
-    <table class="bordered highlight grey-text top">
+    <!--<table class="bordered highlight grey-text top">
         <thead>
             <tr>
                 <th>Username</th>
@@ -58,7 +59,7 @@
                 <td ng-if="user.message" class="not-accepted">not accepted</td>
             </tr>
         </tbody>
-    </table>
+    </table>-->
     </div>
     </div>
 

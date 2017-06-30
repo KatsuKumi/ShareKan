@@ -1,6 +1,6 @@
 'use strict';
 
-SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http, $log, $q) {
+SERVICES.service('kanInvitationService', ['$http', '$log', '$q', '$cookies', function ($http, $log, $q, $cookies) {
 
     this.getKanInvitationList = () => {
 
@@ -32,7 +32,11 @@ SERVICES.service('kanInvitationService', ['$http', '$log', '$q', function ($http
   this.postInvitation = (newUser) => {
      console.log(newUser);
     return $q((resolve, reject) => {
-      $http.post("http://localhost:8888/web/app_dev.php/api/user/invite" , newUser).then((response) => {
+      var config = {headers:  {
+            'Authorization': 'Bearer '+ $cookies.get('token')
+            }
+        };
+      $http.post("http://localhost:8888/web/app_dev.php/api/user/invite" , newUser, config).then((response) => {
       //$http.get("http://localhost:8888/web/app_dev.php/api/user/invite").then((response) => {
 
         resolve(response.data);

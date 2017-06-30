@@ -68,14 +68,12 @@
       <table class="tableplaylist" style="width:100%">
         <tr>
           <th>Titre</th>
-          <th>Nb</th>
           <th>Créateur</th>
           <th>Tags</th>
           <th><a class="btn-floating btn-large waves-effect waves-light red" ui-sref="kanList"><i class="material-icons">add</i></a> </th>
         </tr>
         <tr ng-repeat="kanList in $ctrl.kanLists | filter:search">
           <td>{{kanList.nom}}</td>
-          <td>{{kanList.urls.length}}</td>
           <td>{{kanList.creator.username}}</td>
           <td>
             <ul class="taglist">

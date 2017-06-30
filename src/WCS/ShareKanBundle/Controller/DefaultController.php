@@ -23,20 +23,16 @@ class DefaultController extends Controller
     }
     public function inviteAction(Request $request){
 
-            $em = $this->getDoctrine()->getManager();
-            $jsondata = json_decode($request->request);
-            $user = $em->getRepository('WCSShareKanBundle:User')->find($jsondata["userid"]);
-
         $message = \Swift_Message::newInstance()
-            ->setSubject('Invitation de' . " " . $user->getNom())
-            ->setFrom("vigeantalex@gmail.com")
-            ->setTo($jsondata["email"])
+            ->setSubject('Invitation ShareKan')
+            ->setFrom("wildexchangemail@gmail.com")
+            ->setTo($request->request->get("email"))
             ->setContentType('text/html')
             ->setBody(
                 $this->renderView('email.html.twig',  // vue Twig du mail
-                    array( 'name' => $user->getNom(),
-                        'mail' => $jsondata["email"],
-                        'message' => $jsondata["message"],
+                    array( 'name' => $this->get('security.token_storage')->getToken()->getUser()->getUsername(),
+                        'mail' => $request->request->get("email"),
+                        'message' => $request->request->get("message"),
                     ),
                     'text/html'
                 ));

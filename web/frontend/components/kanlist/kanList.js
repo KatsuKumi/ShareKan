@@ -5,22 +5,19 @@ COMPNT
 
     templateUrl: '/components/kanlist/kanList.html',
 
-    controller: ['kanListService', '$log', function (kanListService, $log) {
+    controller: ['kanListService', '$log', '$cookies', function (kanListService, $log, $cookies) {
       this.$onInit = () => {
-        this.getAllKanLists();
       }
 
-      this.getAllKanLists = () => {
 
+      this.savekanList = (newKanList) => {
+ 
+        kanListService.saveKan(newKanList).then((items) => {
+          
+          $state.go('kanLists');
+        }).catch((err) => {
+        });
+      };
 
-        kanListService.getKanList().then((items) => {
-          this.kanLists = [];
-          this.kanListArray = (items);
-          for (let i = 0; i < 5 ; i++) {
-            this.kanLists.push(this.kanListArray[i].urls[0]);
-          }
-          console.log(this.kanLists);
-        }).catch((err) => { });
-      }
     }]
   });

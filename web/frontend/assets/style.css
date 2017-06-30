@@ -47,6 +47,14 @@ img.icon {
     margin: 25px;
 }
 
+*:focus {
+    outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
 /*NavBar horizontale*/
 #search input[type="text"] {
     margin: 0px 20px 0px 20px;

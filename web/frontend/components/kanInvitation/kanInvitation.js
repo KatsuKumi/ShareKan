@@ -12,15 +12,15 @@ COMPNT
       newUser: '<'
     },
 
-    controller: ['kanInvitationService', '$log', 'userService', function (kanInvitationService, $log, userService) {
+    controller: ['kanInvitationService', '$log', 'userService', function (kanInvitationService, $state, $log, userService) {
       this.$onInit = () => {
-        console.log(this.users); 
+        console.log(this.users);
       }
       this.sendInvit = (newUser) => {
-        userService.getCurrentUser().then((items) => {
-        newUser["userid"] = items.id
+        this.successtext = "Email Sent !";
+        kanInvitationService.postInvitation(newUser).then((items) => {
+        $state.go('kanLists');
         }).catch((err) => { });
-          return kanInvitationService.postInvitation(newUser);
-        }
+      }
     }]
   });
